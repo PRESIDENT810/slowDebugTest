@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0567A327B63888003DE558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5527B4FCF7004600B7 /* ViewController.swift */; };
+		2B0567A427B63888003DE558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5127B4FCF7004600B7 /* AppDelegate.swift */; };
+		2B0567A527B63888003DE558 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */; };
+		2B0567A927B63888003DE558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */; };
+		2B0567AA27B63888003DE558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5A27B4FCFB004600B7 /* Assets.xcassets */; };
+		2B0567AB27B63888003DE558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5727B4FCF7004600B7 /* Main.storyboard */; };
+		2B0567B427B67590003DE558 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0567B327B67590003DE558 /* SnapKit.framework */; };
 		2B803B5227B4FCF7004600B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5127B4FCF7004600B7 /* AppDelegate.swift */; };
 		2B803B5427B4FCF7004600B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */; };
 		2B803B5627B4FCF7004600B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5527B4FCF7004600B7 /* ViewController.swift */; };
@@ -16,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slowDebugTest no-serialize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0567B027B63889003DE558 /* slowDebugTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "slowDebugTest copy-Info.plist"; path = "/Users/bytedance/Xcode/slowDebugTest/slowDebugTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		2B0567B327B67590003DE558 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
 		2B803B4E27B4FCF7004600B7 /* slowDebugTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowDebugTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B803B5127B4FCF7004600B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,10 +37,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B0567A627B63888003DE558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B803B4B27B4FCF7004600B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0567B427B67590003DE558 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				2B803B5027B4FCF7004600B7 /* slowDebugTest */,
 				2B803B4F27B4FCF7004600B7 /* Products */,
+				2B0567B027B63889003DE558 /* slowDebugTest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				2B803B4E27B4FCF7004600B7 /* slowDebugTest.app */,
+				2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +83,7 @@
 				2B803B5A27B4FCFB004600B7 /* Assets.xcassets */,
 				2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */,
 				2B803B5F27B4FCFB004600B7 /* Info.plist */,
+				2B0567B327B67590003DE558 /* SnapKit.framework */,
 			);
 			path = slowDebugTest;
 			sourceTree = "<group>";
@@ -70,6 +91,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B0567A127B63888003DE558 /* slowDebugTest no-serialize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0567AC27B63888003DE558 /* Build configuration list for PBXNativeTarget "slowDebugTest no-serialize" */;
+			buildPhases = (
+				2B0567A227B63888003DE558 /* Sources */,
+				2B0567A627B63888003DE558 /* Frameworks */,
+				2B0567A827B63888003DE558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "slowDebugTest no-serialize";
+			productName = slowDebugTest;
+			productReference = 2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2B803B4D27B4FCF7004600B7 /* slowDebugTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B803B6227B4FCFB004600B7 /* Build configuration list for PBXNativeTarget "slowDebugTest" */;
@@ -116,11 +154,22 @@
 			projectRoot = "";
 			targets = (
 				2B803B4D27B4FCF7004600B7 /* slowDebugTest */,
+				2B0567A127B63888003DE558 /* slowDebugTest no-serialize */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B0567A827B63888003DE558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0567A927B63888003DE558 /* LaunchScreen.storyboard in Resources */,
+				2B0567AA27B63888003DE558 /* Assets.xcassets in Resources */,
+				2B0567AB27B63888003DE558 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B803B4C27B4FCF7004600B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +183,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B0567A227B63888003DE558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0567A327B63888003DE558 /* ViewController.swift in Sources */,
+				2B0567A427B63888003DE558 /* AppDelegate.swift in Sources */,
+				2B0567A527B63888003DE558 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B803B4A27B4FCF7004600B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,6 +225,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B0567AD27B63888003DE558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TS86G732GX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/slowDebugTest",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "slowDebugTest copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -no-serialize-debugging-options";
+				PRODUCT_BUNDLE_IDENTIFIER = company.bytedance.slowDebugTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B0567AE27B63888003DE558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TS86G732GX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/slowDebugTest",
+					"/Users/larkios/Jenkins/workspace/lark/ios/binary-publish/x13/daily-binary-cache-552/Pods/Target",
+					Support,
+					Files369,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "slowDebugTest copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -no-serialize-debugging-options";
+				PRODUCT_BUNDLE_IDENTIFIER = company.bytedance.slowDebugTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2B803B6027B4FCFB004600B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,6 +421,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TS86G732GX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/slowDebugTest",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = slowDebugTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +453,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TS86G732GX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/slowDebugTest",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = slowDebugTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -341,6 +480,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B0567AC27B63888003DE558 /* Build configuration list for PBXNativeTarget "slowDebugTest no-serialize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0567AD27B63888003DE558 /* Debug */,
+				2B0567AE27B63888003DE558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B803B4927B4FCF7004600B7 /* Build configuration list for PBXProject "slowDebugTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
