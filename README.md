@@ -12,6 +12,42 @@ These framework search paths appear to be like this:
 
 For these pods, their framework search paths add up to about 1000, so to simulate this, I manually added these paths when I was building SnapKit in this project. One can easily check this using `llvm-bcanalyzer ../slowDebugTest/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule --dump`.
 
+
+## How to run this demo and generate stub frameworks
+
+```
+python3 CreateStubFrameworks.py
+```
+
+This will create static frameworks `AA.framework AB.framework ... ZZ.framework`, each of them contains single swift source file like this:
+
+```
+public struct AA {
+	public init() {
+
+	}
+}
+```
+
+And a generated `StubFrameworks.swift` source code, which looks like:
+
+```
+import AA
+import AB
+//...
+import ZZ
+
+public func testStubFrameworks() {
+	let _ = AA()
+	let _ = AB()
+	//...
+	let _ = ZZ()
+}
+```
+
+then, add these code to iOS Application's `ViewController.swift`, and build the iOS App target to attach the debugger.
+
+
 ## What this project aims to reproduce
 
 As I mentioned, I have a huge iOS project (Lark), which is very slow to debug in Xcode. As I set a breakpoint and start debugging, it takes about 100s to show variables in Xcode after this breakpoint is hit. By `log timers dump` command in LLDB, I can ascertain the problem occurs in `SwiftASTContext::LoadModule`:
