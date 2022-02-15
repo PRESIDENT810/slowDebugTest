@@ -13,19 +13,18 @@
 		2B0567A927B63888003DE558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */; };
 		2B0567AA27B63888003DE558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5A27B4FCFB004600B7 /* Assets.xcassets */; };
 		2B0567AB27B63888003DE558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5727B4FCF7004600B7 /* Main.storyboard */; };
-		2B0567B427B67590003DE558 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0567B327B67590003DE558 /* SnapKit.framework */; };
 		2B803B5227B4FCF7004600B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5127B4FCF7004600B7 /* AppDelegate.swift */; };
 		2B803B5427B4FCF7004600B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */; };
 		2B803B5627B4FCF7004600B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5527B4FCF7004600B7 /* ViewController.swift */; };
 		2B803B5927B4FCF7004600B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5727B4FCF7004600B7 /* Main.storyboard */; };
 		2B803B5B27B4FCFB004600B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5A27B4FCFB004600B7 /* Assets.xcassets */; };
 		2B803B5E27B4FCFB004600B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */; };
+		2BCCBAC827BA5CD100C723C8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCCBAC727BA5CD100C723C8 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slowDebugTest no-serialize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0567B027B63889003DE558 /* slowDebugTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "slowDebugTest copy-Info.plist"; path = "/Users/bytedance/Xcode/slowDebugTest/slowDebugTest copy-Info.plist"; sourceTree = "<absolute>"; };
-		2B0567B327B67590003DE558 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
 		2B803B4E27B4FCF7004600B7 /* slowDebugTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowDebugTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B803B5127B4FCF7004600B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		2B803B5A27B4FCFB004600B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B803B5D27B4FCFB004600B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B803B5F27B4FCFB004600B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCCBAC727BA5CD100C723C8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0567B427B67590003DE558 /* SnapKit.framework in Frameworks */,
+				2BCCBAC827BA5CD100C723C8 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 				2B803B5A27B4FCFB004600B7 /* Assets.xcassets */,
 				2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */,
 				2B803B5F27B4FCFB004600B7 /* Info.plist */,
-				2B0567B327B67590003DE558 /* SnapKit.framework */,
+				2BCCBAC727BA5CD100C723C8 /* SnapKit.framework */,
 			);
 			path = slowDebugTest;
 			sourceTree = "<group>";

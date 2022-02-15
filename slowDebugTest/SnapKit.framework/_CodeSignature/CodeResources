@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		WaDkxSz04wx23rkdcI4bRo8AtB4=
+		</data>
 		<key>Headers/SnapKit-Swift.h</key>
 		<data>
 		38ORGq563kEowzyIHI0ETFRKWHc=
@@ -11,6 +15,10 @@
 		<key>Info.plist</key>
 		<data>
 		MpZtyR1GRhyZuFbXyWFOlUPMMzs=
+		</data>
+		<key>Modules/.DS_Store</key>
+		<data>
+		GAcpZYOzv2QhvJYIrSE00XFNG8Q=
 		</data>
 		<key>Modules/SnapKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -30,7 +38,7 @@
 		</data>
 		<key>Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cTR4TToSZjm5CpclFTDMXeK9bJs=
+		Drq8rRtrftxnM6MI4NgMiQH/jWI=
 		</data>
 		<key>Modules/SnapKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,7 +50,7 @@
 		</data>
 		<key>Modules/SnapKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		cTR4TToSZjm5CpclFTDMXeK9bJs=
+		Drq8rRtrftxnM6MI4NgMiQH/jWI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,11 +118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cTR4TToSZjm5CpclFTDMXeK9bJs=
+			Drq8rRtrftxnM6MI4NgMiQH/jWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AALKPUdYHiaWuilqoy7D4ManvaaW+4Y7HIbnfE9ZvdU=
+			klBGlFlwRxLZfObk/5YX/nkY/5K2InRnRPpR7wlg95k=
 			</data>
 		</dict>
 		<key>Modules/SnapKit.swiftmodule/x86_64.swiftdoc</key>
@@ -143,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cTR4TToSZjm5CpclFTDMXeK9bJs=
+			Drq8rRtrftxnM6MI4NgMiQH/jWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AALKPUdYHiaWuilqoy7D4ManvaaW+4Y7HIbnfE9ZvdU=
+			klBGlFlwRxLZfObk/5YX/nkY/5K2InRnRPpR7wlg95k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
