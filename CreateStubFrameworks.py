@@ -3,6 +3,7 @@ from string import ascii_uppercase as ABC
 
 module_names = []
 limit = 100
+module_limit = 200
 for c1 in ABC:
     for c2 in ABC:
         if limit <= 0:
@@ -17,10 +18,9 @@ for c1 in ABC:
         os.makedirs(source_dir, exist_ok=True)
 
         # 2. Create stub source files, each module contains large number of files
-        module_limit = 200
         for i in range(module_limit):
             source_content ="""
-public struct %s%d {
+public class %s%d {
     public init() {
     }
 }
@@ -50,6 +50,8 @@ source_code += "\n"
 source_code += "public func testStubFrameworks() {\n"
 for module_name in module_names:
     source_code += "    let _ = %s()\n" % (module_name)
+    for i in range(module_limit):
+        source_code += "    let _ = %s%d()\n" % (module_name, i)
 source_code += "}"
 with open(source_code_name, "w") as source_f:
     source_f.write(source_code)

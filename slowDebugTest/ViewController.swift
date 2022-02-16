@@ -11,7 +11,8 @@ import AA
 
 class ViewController: UIViewController {
     lazy var box = UIView()
-    var tmp = AA() // This will trigger the lldb `GetModule()` call when breakpoint inside ViewController
+//    var tmp = AA() // This will trigger the lldb `GetModule()` call when breakpoint inside ViewController
+    static var preLoadDataBufferTime: TimeInterval = 0.1
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
 //        sleep(10) // wait so I have time to let debugger attach to process lldb-rpc-server
         
         // Stub Frameworks breakpoint direct call, seems no `GetModule()` call
-//        testStubFrameworks()
+       testStubFrameworks()
         
         self.view.addSubview(box)
         box.backgroundColor = .green
