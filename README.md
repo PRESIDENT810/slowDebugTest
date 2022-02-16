@@ -15,14 +15,26 @@ For these pods, their framework search paths add up to about 1000, so to simulat
 
 ## How to run this demo and generate stub frameworks
 
-```
+```bash
 python3 CreateStubFrameworks.py
 ```
 
-This will create static frameworks `AA.framework AB.framework ... ZZ.framework`, each of them contains single swift source file like this:
+This will create static frameworks `AA.framework AB.framework ... ZZ.framework`
 
+each of framework contains one swift source file `AA.swift` like this:
+
+```swift
+public class AA {
+	public init() {
+
+	}
+}
 ```
-public struct AA {
+
+and also 200 swift source files `AA0.swift AA2.swift ... AA199.swift` like this:
+
+```swift
+public struct AA1 {
 	public init() {
 
 	}
@@ -31,7 +43,7 @@ public struct AA {
 
 And a generated `StubFrameworks.swift` source code, which looks like:
 
-```
+```swift
 import AA
 import AB
 //...
@@ -45,7 +57,7 @@ public func testStubFrameworks() {
 }
 ```
 
-then, add these code to iOS Application's `ViewController.swift`, and build the iOS App target to attach the debugger.
+then, import these stub frameworks and types from iOS Application's `ViewController.swift`, build the iOS App target to attach the debugger to see the slow debugger experience.
 
 
 ## What this project aims to reproduce

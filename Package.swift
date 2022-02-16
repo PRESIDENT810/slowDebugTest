@@ -14,12 +14,11 @@ for c1 in Unicode.Scalar("A").value...Unicode.Scalar("Z").value {
         limit -= 1
         let charView = String.UnicodeScalarView([Unicode.Scalar(c1)!, Unicode.Scalar(c2)!])
         let moduleName = String(charView)
-        print(moduleName)
         moduleNames.append(moduleName)
     }
 }
 
-let targets = moduleNames.map { Target.target(name: $0) }
+let targets = moduleNames.map { Target.target(name: $0, dependencies: [], path: "Sources/" + $0) }
 
 let package = Package(
     name: "StubFrameworks",
