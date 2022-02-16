@@ -57,7 +57,9 @@ public func testStubFrameworks() {
 }
 ```
 
-then, import these stub frameworks and types from iOS Application's `ViewController.swift`, build the iOS App target to attach the debugger to see the slow debugger experience.
+then, open `slowDebugTest.xcodeproj` (not the generated `StubFrameworks.xcodeproj`).
+
+You can see here we import these stub frameworks and types from iOS Application's `ViewController.swift`, build the iOS App target to attach the debugger to see the slow debugger experience.
 
 
 ## What this project aims to reproduce
