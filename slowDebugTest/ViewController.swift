@@ -7,7 +7,6 @@
 
 import UIKit
 import SnapKit
-import AA
 
 class ViewController: UIViewController {
     lazy var box = UIView()
@@ -18,10 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        sleep(10) // wait so I have time to let debugger attach to process lldb-rpc-server
+        sleep(10) // wait so I have time to let debugger attach to process lldb-rpc-server
         
         // Stub Frameworks breakpoint direct call, seems no `GetModule()` call
-       testStubFrameworks()
+        testStubFrameworks()
         
         self.view.addSubview(box)
         box.backgroundColor = .green

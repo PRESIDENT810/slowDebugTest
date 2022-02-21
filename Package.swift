@@ -13,7 +13,7 @@ for c1 in Unicode.Scalar("A").value...Unicode.Scalar("Z").value {
         }
         limit -= 1
         let charView = String.UnicodeScalarView([Unicode.Scalar(c1)!, Unicode.Scalar(c2)!])
-        let moduleName = String(charView)
+        let moduleName = String(charView) + "Stub"
         moduleNames.append(moduleName)
     }
 }
@@ -22,6 +22,10 @@ let targets = moduleNames.map { Target.target(name: $0, dependencies: [], path: 
 
 let package = Package(
     name: "StubFrameworks",
+    platforms: [
+        .macOS(.v10_11),
+        .iOS(.v9)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(

@@ -1,5 +1,25 @@
 import os
+import argparse
 from string import ascii_uppercase as ABC
+
+parser = argparse.ArgumentParser(description='Create stub frameworks for iOS/macOS platform')
+parser.add_argument('--sdk', dest='sdk', default='iphonesimulator',
+                    help='specify SDK, like iphonesimulator or macosx. Defaults to iphonesimulator')
+parser.add_argument('--configuration', dest='configuration', default='Debug',
+                    help='specify configuration, like Debug or Release. Defaults to Debug')
+args = parser.parse_args()
+
+
+sdk = args.sdk
+configuration = args.configuration
+if sdk == 'iphonesimulator':
+    archs = 'x86_64'
+elif sdk == 'macosx':
+    archs = 'x86_64'
+elif sdk == 'iphoneos':
+    archs = 'arm64'
+else:
+    raise Exception("Unsupported sdk %s, update the script" % (sdk))
 
 module_names = []
 limit = 100
@@ -9,7 +29,7 @@ for c1 in ABC:
         if limit <= 0:
             break
         limit -= 1
-        module_name = c1 + c2
+        module_name = c1 + c2 + "Stub"
         module_names.append(module_name)
         source_dir = os.path.join("Sources", module_name)
 
@@ -67,15 +87,13 @@ xcconfig_path = "StubFrameworks.xcconfig"
 with open(xcconfig_path, "w") as f:
     framework_search_paths = list(map(lambda x : "/path/not/found/%s" % (x), module_names))
     f.write("MACH_O_TYPE = staticlib\n")
-    f.write("EXCLUDED_ARCHS = arm64 i386\n") # I'm not testing M1 Mac :)
+    f.write("VALID_ARCHS = %s\n" % (archs)) # I'm not testing M1 Mac :)
     f.write("FRAMEWORK_SEARCH_PATHS = ")
     for module_name in module_names:
         for i in range(10):
             f.write("/path/not/found/%s/%d " % (module_name, i))
 
 # 6. Xcodebuild build framework
-sdk = "iphonesimulator"
-configuration = "Debug"
 cmd = "xcodebuild build -project %s -xcconfig %s -configuration %s -sdk %s " % (xcodeproj_path, xcconfig_path, configuration, sdk)
 for module_name in module_names:
     cmd += " -target %s" % (module_name)

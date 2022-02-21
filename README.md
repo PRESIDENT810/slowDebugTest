@@ -19,22 +19,22 @@ For these pods, their framework search paths add up to about 1000, so to simulat
 python3 CreateStubFrameworks.py
 ```
 
-This will create static frameworks `AA.framework AB.framework ... ZZ.framework`
+This will create static frameworks `AAStub.framework ABStub.framework ... ZZStub.framework`
 
 each of framework contains one swift source file `AA.swift` like this:
 
 ```swift
-public class AA {
+public class AAStub {
 	public init() {
 
 	}
 }
 ```
 
-and also 200 swift source files `AA0.swift AA2.swift ... AA199.swift` like this:
+and also 200 swift source files `AAStub0.swift AAStub1.swift ... AAStub199.swift` like this:
 
 ```swift
-public struct AA1 {
+public struct AA1Stub {
 	public init() {
 
 	}
@@ -44,16 +44,16 @@ public struct AA1 {
 And a generated `StubFrameworks.swift` source code, which looks like:
 
 ```swift
-import AA
-import AB
+import AAStub
+import ABStub
 //...
-import ZZ
+import ZZStub
 
 public func testStubFrameworks() {
-	let _ = AA()
-	let _ = AB()
+	let _ = AAStub()
+	let _ = ABStub()
 	//...
-	let _ = ZZ()
+	let _ = ZZStub()
 }
 ```
 
