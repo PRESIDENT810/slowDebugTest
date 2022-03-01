@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     lazy var box = UIView()
 //    var tmp = AA() // This will trigger the lldb `GetModule()` call when breakpoint inside ViewController
     static var preLoadDataBufferTime: TimeInterval = 0.1
+    var testBuffer: TimeInterval = 0.2
 
     override func viewDidLoad() {
         super.viewDidLoad()

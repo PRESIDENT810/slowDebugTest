@@ -120,6 +120,7 @@
 		326C4E6D27BF710A003D8296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326C4E6C27BF710A003D8296 /* Assets.xcassets */; };
 		326C4E7027BF710A003D8296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326C4E6E27BF710A003D8296 /* Main.storyboard */; };
 		328E173A27BF79530015C64A /* StubFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DEE7527BBA1A1003280BE /* StubFrameworks.swift */; };
+		32C734D627CE450E006DA0DA /* OCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C734D527CE450E006DA0DA /* OCPerson.m */; };
 		32FF88CD27C387A60080AADF /* AAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AF27C387950080AADF /* AAStub.framework */; };
 		32FF88CE27C387A60080AADF /* ABStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887D27C387930080AADF /* ABStub.framework */; };
 		32FF88CF27C387A60080AADF /* ACStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A527C387950080AADF /* ACStub.framework */; };
@@ -539,6 +540,9 @@
 		326C4E6C27BF710A003D8296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		326C4E6F27BF710A003D8296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		326C4E7127BF710A003D8296 /* slowDebugTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = slowDebugTestMac.entitlements; sourceTree = "<group>"; };
+		32C734D327CE450E006DA0DA /* slowDebugTestMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slowDebugTestMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		32C734D427CE450E006DA0DA /* OCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPerson.h; sourceTree = "<group>"; };
+		32C734D527CE450E006DA0DA /* OCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPerson.m; sourceTree = "<group>"; };
 		32FF886927C387930080AADF /* AFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFStub.framework; path = "build/Debug-iphonesimulator/AFStub.framework"; sourceTree = "<group>"; };
 		32FF886A27C387930080AADF /* COStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COStub.framework; path = "build/Debug-iphonesimulator/COStub.framework"; sourceTree = "<group>"; };
 		32FF886B27C387930080AADF /* DLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLStub.framework; path = "build/Debug-iphonesimulator/DLStub.framework"; sourceTree = "<group>"; };
@@ -1310,6 +1314,9 @@
 				326C4E6C27BF710A003D8296 /* Assets.xcassets */,
 				326C4E6E27BF710A003D8296 /* Main.storyboard */,
 				326C4E7127BF710A003D8296 /* slowDebugTestMac.entitlements */,
+				32C734D427CE450E006DA0DA /* OCPerson.h */,
+				32C734D527CE450E006DA0DA /* OCPerson.m */,
+				32C734D327CE450E006DA0DA /* slowDebugTestMac-Bridging-Header.h */,
 			);
 			path = slowDebugTestMac;
 			sourceTree = "<group>";
@@ -1366,6 +1373,7 @@
 					};
 					326C4E6527BF7107003D8296 = {
 						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -1428,6 +1436,7 @@
 			files = (
 				326C4E6B27BF7107003D8296 /* ViewController.swift in Sources */,
 				328E173A27BF79530015C64A /* StubFrameworks.swift in Sources */,
+				32C734D627CE450E006DA0DA /* OCPerson.m in Sources */,
 				326C4E6927BF7107003D8296 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1651,6 +1660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = slowDebugTestMac/slowDebugTestMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1674,6 +1684,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "slowDebugTestMac/slowDebugTestMac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1683,6 +1695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = slowDebugTestMac/slowDebugTestMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1706,6 +1719,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "slowDebugTestMac/slowDebugTestMac-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
