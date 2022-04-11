@@ -59,10 +59,27 @@ def generate_objc_sources(module_name, source_index, source_dir):
     # 2. Create stub source files
     with open(os.path.join(source_dir, source_name), "w") as f:
         f.write(source_content)
-    # 3. Create stub include folder
+
+def generate_objc_support_files(module_name, source_dir):
+    # 3. Create objc umbrella file
+    umbrella_header_content = ""
+    for source_index in range(module_limit):
+        umbrella_header_content += """
+#import <%s/%s%d.h>""" % (module_name, module_name, source_index)
+    umbrella_header_name = module_name + ".h"
+
+    with open(os.path.join(source_dir, umbrella_header_name), "w") as f:
+        f.write(umbrella_header_content)
+
+    # 4. Create stub include folder
+    # must match `include/AAStub.h` :), see: swift-package-manager/Sources/Xcodeproj/pbxproj.swift:591
     include_dir = os.path.join(source_dir, 'include')
     os.makedirs(include_dir, exist_ok=True)
-    os.symlink(os.path.join('../', header_name), os.path.join(include_dir, header_name))
+
+    for source_index in range(module_limit):
+        header_name = module_name + str(source_index) + ".h"
+        os.symlink(os.path.join('../', header_name), os.path.join(include_dir, header_name))
+    os.symlink(os.path.join('../', umbrella_header_name), os.path.join(include_dir, umbrella_header_name))
 
 def generate_swift_sources(module_name, source_index, source_dir):
     # 1. Create stub swift source files
@@ -75,7 +92,9 @@ public class %s%d {
     source_name = module_name + str(source_index) + ".swift"
     with open(os.path.join(source_dir, source_name), "w") as f:
         f.write(source_content)
-    # 2. Create stub swift main file
+
+def generate_swift_support_files(module_name, source_dir):
+    # 2. Create swift main file
     main_source_content ="""
 public class %s {
     public init() {
@@ -88,8 +107,8 @@ public class %s {
 
 
 module_names = []
-limit = 100
-module_limit = 50
+limit = 100 # How many modules
+module_limit = 50 # How many object file for each module
 for c1 in ABC:
     for c2 in ABC:
         if limit <= 0:
@@ -111,6 +130,12 @@ for c1 in ABC:
             else:
                 generate_swift_sources(module_name, source_index, source_dir)
 
+        # 3. Create some extra support files
+        if objc:
+            generate_objc_support_files(module_name, source_dir)
+        else:
+            generate_swift_support_files(module_name, source_dir)
+
 # 3. Generate client source code
 source_code_name = "StubFrameworks.swift"
 print("Genrating client source code to %s..." % (source_code_name))
@@ -121,7 +146,6 @@ for module_name in module_names:
 source_code += "\n"
 source_code += "public func testStubFrameworks() {\n"
 for module_name in module_names:
-    source_code += "    let _ = %s()\n" % (module_name)
     for i in range(module_limit):
         source_code += "    let _ = %s%d()\n" % (module_name, i)
 source_code += "}"
@@ -145,10 +169,6 @@ with open(xcconfig_path, "w") as f:
         for i in range(10):
             f.write("/path/not/found/%s/%d " % (module_name, i))
     f.write("\n")
-    # Set Clang Module for Objective-C framework
-    if objc:
-        f.write("DEFINES_MODULE = YES\n")
-        f.write("CLANG_ENABLE_MODULES = YES\n")
 
 # 6. Xcodebuild build framework
 cmd = "xcodebuild build -project %s -xcconfig %s -configuration %s -sdk %s " % (xcodeproj_path, xcconfig_path, configuration, sdk)

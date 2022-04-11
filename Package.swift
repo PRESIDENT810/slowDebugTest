@@ -19,6 +19,13 @@ for c1 in Unicode.Scalar("A").value...Unicode.Scalar("Z").value {
 }
 
 let targets = moduleNames.map { Target.target(name: $0, dependencies: [], path: "Sources/" + $0) }
+let deps = moduleNames.map { Target.Dependency(stringLiteral: $0) }
+
+let StubFrameworksTarget = Target.target(
+    name: "StubFrameworks",
+    dependencies: deps,
+    sources: ["StubFrameworks.swift"]
+)
 
 let package = Package(
     name: "StubFrameworks",
