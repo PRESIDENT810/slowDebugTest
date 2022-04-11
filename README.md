@@ -15,8 +15,27 @@ For these pods, their framework search paths add up to about 1000, so to simulat
 
 ## How to run this demo and generate stub frameworks
 
++ See built script help:
+
+```bash
+python3 CreateStubFrameworks.py --help
+```
+
++ Build iOS stub frameworks
+
 ```bash
 python3 CreateStubFrameworks.py
+```
+
++ Build macOS stub frameworks
+
+```bash
+python3 CreateStubFrameworks.py --sdk macosx
+
++ Build Objective-C(default Swift) stub frameworks
+
+```bash
+python3 CreateStubFrameworks.py --objc
 ```
 
 This will create static frameworks `AAStub.framework ABStub.framework ... ZZStub.framework`

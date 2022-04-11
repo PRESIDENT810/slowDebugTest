@@ -1,4 +1,5 @@
 import os
+import shutil
 import argparse
 from string import ascii_uppercase as ABC
 
@@ -7,6 +8,8 @@ parser.add_argument('--sdk', dest='sdk', default='iphonesimulator',
                     help='specify SDK, like iphonesimulator or macosx. Defaults to iphonesimulator')
 parser.add_argument('--configuration', dest='configuration', default='Debug',
                     help='specify configuration, like Debug or Release. Defaults to Debug')
+parser.add_argument('--objc', dest = 'objc', action='store_true',default=False,
+                    help='generate Objective-C stub framework, default generate Swift framework')
 args = parser.parse_args()
 
 
@@ -20,6 +23,69 @@ elif sdk == 'iphoneos':
     archs = 'arm64'
 else:
     raise Exception("Unsupported sdk %s, update the script" % (sdk))
+objc = args.objc
+
+if objc:
+    print("Generate Objective-C sources")
+else:
+    print("Generate Swift sources")
+
+def generate_objc_sources(module_name, source_index, source_dir):
+    # 2.1 Create stub source files
+    header_content ="""
+#import <Foundation/Foundation.h>
+
+@interface %s%d : NSObject
+
+@property NSString *name;
+
+@end
+
+""" % (module_name, source_index)
+    header_name = module_name + str(source_index) + ".h"
+
+    with open(os.path.join(source_dir, header_name), "w") as f:
+        f.write(header_content)
+    # 1 Create stub header files
+    source_content ="""
+#import "%s%d.h"
+
+@implementation %s%d
+
+@end
+
+""" % (module_name, source_index, module_name, source_index)
+    source_name = module_name + str(source_index) + ".m"
+    # 2. Create stub source files
+    with open(os.path.join(source_dir, source_name), "w") as f:
+        f.write(source_content)
+    # 3. Create stub include folder
+    include_dir = os.path.join(source_dir, 'include')
+    os.makedirs(include_dir, exist_ok=True)
+    os.symlink(os.path.join('../', header_name), os.path.join(include_dir, header_name))
+
+def generate_swift_sources(module_name, source_index, source_dir):
+    # 1. Create stub swift source files
+    source_content ="""
+public class %s%d {
+    public init() {
+    }
+}
+""" % (module_name, source_index)
+    source_name = module_name + str(source_index) + ".swift"
+    with open(os.path.join(source_dir, source_name), "w") as f:
+        f.write(source_content)
+    # 2. Create stub swift main file
+    main_source_content ="""
+public class %s {
+    public init() {
+    }
+}
+""" % (module_name)
+    main_source_name = module_name + ".swift"
+    with open(os.path.join(source_dir, main_source_name), "w") as f:
+        f.write(main_source_content)
+
 
 module_names = []
 limit = 100
@@ -35,29 +101,15 @@ for c1 in ABC:
 
         # 1. Create stub source folder
         print("Genrating %s module and source files..." % (module_name))
+        shutil.rmtree(source_dir, ignore_errors=True)
         os.makedirs(source_dir, exist_ok=True)
 
         # 2. Create stub source files, each module contains large number of files
-        for i in range(module_limit):
-            source_content ="""
-public class %s%d {
-    public init() {
-    }
-}
-""" % (module_name, i)
-            source_name = module_name + str(i) + ".swift"
-            with open(os.path.join(source_dir, source_name), "w") as f:
-                f.write(source_content)
-
-        main_source_content ="""
-public class %s {
-    public init() {
-    }
-}
-""" % (module_name)
-        main_source_name = module_name + ".swift"
-        with open(os.path.join(source_dir, main_source_name), "w") as f:
-            f.write(main_source_content)
+        for source_index in range(module_limit):
+            if objc:
+                generate_objc_sources(module_name, source_index, source_dir)
+            else:
+                generate_swift_sources(module_name, source_index, source_dir)
 
 # 3. Generate client source code
 source_code_name = "StubFrameworks.swift"
