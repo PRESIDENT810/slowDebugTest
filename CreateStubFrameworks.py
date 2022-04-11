@@ -89,7 +89,7 @@ public class %s {
 
 module_names = []
 limit = 100
-module_limit = 200
+module_limit = 50
 for c1 in ABC:
     for c2 in ABC:
         if limit <= 0:
@@ -144,6 +144,11 @@ with open(xcconfig_path, "w") as f:
     for module_name in module_names:
         for i in range(10):
             f.write("/path/not/found/%s/%d " % (module_name, i))
+    f.write("\n")
+    # Set Clang Module for Objective-C framework
+    if objc:
+        f.write("DEFINES_MODULE = YES\n")
+        f.write("CLANG_ENABLE_MODULES = YES\n")
 
 # 6. Xcodebuild build framework
 cmd = "xcodebuild build -project %s -xcconfig %s -configuration %s -sdk %s " % (xcodeproj_path, xcconfig_path, configuration, sdk)
