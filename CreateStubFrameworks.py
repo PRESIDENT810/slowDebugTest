@@ -40,8 +40,83 @@ for c1 in ABC:
         # 2. Create stub source files, each module contains large number of files
         for i in range(module_limit):
             source_content ="""
+import Foundation
+import UIKit
+import CoreText
+import CoreML
+import CoreNFC
+import CoreData
+import CoreAudio
+import CoreImage
+import CoreMotion
+import CoreServices
+import CoreFoundation
+import CoreAudioKit
+import CoreSpotlight
+import CoreMedia
+import CoreBluetooth
+import CoreLocation
+import ObjectiveC
+import Darwin
+import OpenAL
+import OpenGLES
+import QuartzCore
+import AVFAudio
+import CoreMIDI
+import CoreVideo
+import CoreHaptics
+import CoreGraphics
+import CoreTelephony
+import CoreAudioTypes
+import JavaScriptCore
+import MobileCoreServices
+import SwiftUI
+import WebKit
+import WidgetKit
+import Network
+import PhotosUI
+import Metal
+import MusicKit
+import MessageUI
+import MediaPlayer
+import MapKit
+import MetalKit
+import MediaToolbox
+import Messages
+import ShazamKit
+import LinkPresentation
+import LocalAuthentication
+import SQLite3
+import libxml2
+import NetworkExtension
+import networkext
+import SceneKit
+import ARKit
+import AVKit
+import GLKit
+import GameKit
+import HomeKit
+import CloudKit
+import CryptoKit
+import SensorKit
+import HealthKit
+
 public class %s%d {
+    public var _outOfRangeText: NSAttributedString?
+    public var defaultFont: UIFont
+    public var var1: UIView
+    public var var2: UILabel
+    public var var3: UIButton
+    public var var4: UIColor
+
     public init() {
+        let SYSTEM_FONT = UIFont.systemFont(ofSize: UIFont.systemFontSize)
+        self._outOfRangeText = NSAttributedString()
+        self.defaultFont = SYSTEM_FONT
+        self.var1 = UIView()
+        self.var2 = UILabel()
+        self.var3 = UIButton()
+        self.var4 = UIColor()
     }
 }
 """ % (module_name, i)
@@ -68,6 +143,7 @@ for module_name in module_names:
     source_code += "import %s\n" % (module_name)
 source_code += "\n"
 source_code += "public func testStubFrameworks() {\n"
+source_code += "    let temp = AAStub0()\n"
 for module_name in module_names:
     source_code += "    let _ = %s()\n" % (module_name)
     for i in range(module_limit):
