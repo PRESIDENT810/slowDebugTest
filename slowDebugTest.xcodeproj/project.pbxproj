@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B0567A327B63888003DE558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5527B4FCF7004600B7 /* ViewController.swift */; };
-		2B0567A427B63888003DE558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5127B4FCF7004600B7 /* AppDelegate.swift */; };
-		2B0567A527B63888003DE558 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */; };
-		2B0567A927B63888003DE558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */; };
-		2B0567AA27B63888003DE558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5A27B4FCFB004600B7 /* Assets.xcassets */; };
-		2B0567AB27B63888003DE558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5727B4FCF7004600B7 /* Main.storyboard */; };
 		2B803B5227B4FCF7004600B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5127B4FCF7004600B7 /* AppDelegate.swift */; };
 		2B803B5427B4FCF7004600B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */; };
 		2B803B5627B4FCF7004600B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B803B5527B4FCF7004600B7 /* ViewController.swift */; };
@@ -20,324 +14,216 @@
 		2B803B5B27B4FCFB004600B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5A27B4FCFB004600B7 /* Assets.xcassets */; };
 		2B803B5E27B4FCFB004600B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B803B5C27B4FCFB004600B7 /* LaunchScreen.storyboard */; };
 		2BCCBAC827BA5CD100C723C8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCCBAC727BA5CD100C723C8 /* SnapKit.framework */; };
-		320DEDAC27BBA14E003280BE /* DD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4827BBA14C003280BE /* DD.framework */; };
-		320DEDAD27BBA14E003280BE /* DD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4827BBA14C003280BE /* DD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDAE27BBA14E003280BE /* CK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4927BBA14C003280BE /* CK.framework */; };
-		320DEDAF27BBA14E003280BE /* CK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4927BBA14C003280BE /* CK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDB027BBA14E003280BE /* AV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4A27BBA14C003280BE /* AV.framework */; };
-		320DEDB127BBA14E003280BE /* AV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4A27BBA14C003280BE /* AV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDB227BBA14E003280BE /* BG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4B27BBA14C003280BE /* BG.framework */; };
-		320DEDB327BBA14E003280BE /* BG.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4B27BBA14C003280BE /* BG.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDB427BBA14E003280BE /* BE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4C27BBA14C003280BE /* BE.framework */; };
-		320DEDB527BBA14E003280BE /* BE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4C27BBA14C003280BE /* BE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDB627BBA14E003280BE /* CW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4D27BBA14C003280BE /* CW.framework */; };
-		320DEDB727BBA14E003280BE /* CW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4D27BBA14C003280BE /* CW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDB827BBA14E003280BE /* CY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4E27BBA14C003280BE /* CY.framework */; };
-		320DEDB927BBA14F003280BE /* CY.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4E27BBA14C003280BE /* CY.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDBA27BBA14F003280BE /* DU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4F27BBA14C003280BE /* DU.framework */; };
-		320DEDBB27BBA14F003280BE /* DU.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED4F27BBA14C003280BE /* DU.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDBC27BBA14F003280BE /* BZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5027BBA14C003280BE /* BZ.framework */; };
-		320DEDBD27BBA14F003280BE /* BZ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5027BBA14C003280BE /* BZ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDBE27BBA14F003280BE /* AK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5127BBA14C003280BE /* AK.framework */; };
-		320DEDBF27BBA14F003280BE /* AK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5127BBA14C003280BE /* AK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDC027BBA14F003280BE /* CT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5227BBA14C003280BE /* CT.framework */; };
-		320DEDC127BBA14F003280BE /* CT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5227BBA14C003280BE /* CT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDC227BBA14F003280BE /* BW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5327BBA14C003280BE /* BW.framework */; };
-		320DEDC327BBA14F003280BE /* BW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5327BBA14C003280BE /* BW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDC427BBA14F003280BE /* AP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5427BBA14C003280BE /* AP.framework */; };
-		320DEDC527BBA14F003280BE /* AP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5427BBA14C003280BE /* AP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDC627BBA14F003280BE /* CM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5527BBA14C003280BE /* CM.framework */; };
-		320DEDC727BBA14F003280BE /* CM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5527BBA14C003280BE /* CM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDC827BBA14F003280BE /* DB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5627BBA14C003280BE /* DB.framework */; };
-		320DEDC927BBA14F003280BE /* DB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5627BBA14C003280BE /* DB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDCA27BBA14F003280BE /* AL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5727BBA14C003280BE /* AL.framework */; };
-		320DEDCB27BBA14F003280BE /* AL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5727BBA14C003280BE /* AL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDCC27BBA14F003280BE /* CN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5827BBA14C003280BE /* CN.framework */; };
-		320DEDCD27BBA14F003280BE /* CN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5827BBA14C003280BE /* CN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDCE27BBA14F003280BE /* DF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5927BBA14C003280BE /* DF.framework */; };
-		320DEDCF27BBA14F003280BE /* DF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5927BBA14C003280BE /* DF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDD027BBA14F003280BE /* AC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5A27BBA14C003280BE /* AC.framework */; };
-		320DEDD127BBA14F003280BE /* AC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5A27BBA14C003280BE /* AC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDD227BBA14F003280BE /* BD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5B27BBA14C003280BE /* BD.framework */; };
-		320DEDD327BBA14F003280BE /* BD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5B27BBA14C003280BE /* BD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDD427BBA14F003280BE /* BC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5C27BBA14C003280BE /* BC.framework */; };
-		320DEDD527BBA14F003280BE /* BC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5C27BBA14C003280BE /* BC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDD627BBA14F003280BE /* BR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5D27BBA14C003280BE /* BR.framework */; };
-		320DEDD727BBA14F003280BE /* BR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5D27BBA14C003280BE /* BR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDD827BBA14F003280BE /* BS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5E27BBA14C003280BE /* BS.framework */; };
-		320DEDD927BBA14F003280BE /* BS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5E27BBA14C003280BE /* BS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDDA27BBA14F003280BE /* CC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5F27BBA14C003280BE /* CC.framework */; };
-		320DEDDB27BBA14F003280BE /* CC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED5F27BBA14C003280BE /* CC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDDC27BBA14F003280BE /* AI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6027BBA14C003280BE /* AI.framework */; };
-		320DEDDD27BBA14F003280BE /* AI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6027BBA14C003280BE /* AI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDDE27BBA14F003280BE /* AS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6127BBA14C003280BE /* AS.framework */; };
-		320DEDDF27BBA14F003280BE /* AS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6127BBA14C003280BE /* AS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDE027BBA14F003280BE /* CQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6227BBA14C003280BE /* CQ.framework */; };
-		320DEDE127BBA14F003280BE /* CQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6227BBA14C003280BE /* CQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDE227BBA14F003280BE /* BK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6327BBA14C003280BE /* BK.framework */; };
-		320DEDE327BBA14F003280BE /* BK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6327BBA14C003280BE /* BK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDE427BBA14F003280BE /* CG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6427BBA14C003280BE /* CG.framework */; };
-		320DEDE527BBA14F003280BE /* CG.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6427BBA14C003280BE /* CG.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDE627BBA150003280BE /* BX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6527BBA14C003280BE /* BX.framework */; };
-		320DEDE727BBA150003280BE /* BX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6527BBA14C003280BE /* BX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDE827BBA150003280BE /* AF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6627BBA14C003280BE /* AF.framework */; };
-		320DEDE927BBA150003280BE /* AF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6627BBA14C003280BE /* AF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDEA27BBA150003280BE /* AY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6727BBA14C003280BE /* AY.framework */; };
-		320DEDEB27BBA150003280BE /* AY.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6727BBA14C003280BE /* AY.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDEC27BBA150003280BE /* BU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6827BBA14C003280BE /* BU.framework */; };
-		320DEDED27BBA150003280BE /* BU.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6827BBA14C003280BE /* BU.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDEE27BBA150003280BE /* AT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6927BBA14C003280BE /* AT.framework */; };
-		320DEDEF27BBA150003280BE /* AT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6927BBA14C003280BE /* AT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDF027BBA150003280BE /* BO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6A27BBA14C003280BE /* BO.framework */; };
-		320DEDF127BBA150003280BE /* BO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6A27BBA14C003280BE /* BO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDF227BBA150003280BE /* CB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6B27BBA14D003280BE /* CB.framework */; };
-		320DEDF327BBA150003280BE /* CB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6B27BBA14D003280BE /* CB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDF427BBA150003280BE /* DN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6C27BBA14D003280BE /* DN.framework */; };
-		320DEDF527BBA150003280BE /* DN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6C27BBA14D003280BE /* DN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDF627BBA150003280BE /* CU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6D27BBA14D003280BE /* CU.framework */; };
-		320DEDF727BBA150003280BE /* CU.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6D27BBA14D003280BE /* CU.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDF827BBA150003280BE /* DC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6E27BBA14D003280BE /* DC.framework */; };
-		320DEDF927BBA150003280BE /* DC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6E27BBA14D003280BE /* DC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDFA27BBA150003280BE /* BT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6F27BBA14D003280BE /* BT.framework */; };
-		320DEDFB27BBA150003280BE /* BT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED6F27BBA14D003280BE /* BT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDFC27BBA150003280BE /* BI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7027BBA14D003280BE /* BI.framework */; };
-		320DEDFD27BBA150003280BE /* BI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7027BBA14D003280BE /* BI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEDFE27BBA150003280BE /* AQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7127BBA14D003280BE /* AQ.framework */; };
-		320DEDFF27BBA150003280BE /* AQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7127BBA14D003280BE /* AQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0027BBA150003280BE /* AW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7227BBA14D003280BE /* AW.framework */; };
-		320DEE0127BBA150003280BE /* AW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7227BBA14D003280BE /* AW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0227BBA151003280BE /* CO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7327BBA14D003280BE /* CO.framework */; };
-		320DEE0327BBA151003280BE /* CO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7327BBA14D003280BE /* CO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0427BBA151003280BE /* AD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7427BBA14D003280BE /* AD.framework */; };
-		320DEE0527BBA151003280BE /* AD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7427BBA14D003280BE /* AD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0627BBA151003280BE /* BV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7527BBA14D003280BE /* BV.framework */; };
-		320DEE0727BBA151003280BE /* BV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7527BBA14D003280BE /* BV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0827BBA151003280BE /* CL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7627BBA14D003280BE /* CL.framework */; };
-		320DEE0927BBA151003280BE /* CL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7627BBA14D003280BE /* CL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0A27BBA151003280BE /* DM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7727BBA14D003280BE /* DM.framework */; };
-		320DEE0B27BBA151003280BE /* DM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7727BBA14D003280BE /* DM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0C27BBA151003280BE /* DL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7827BBA14D003280BE /* DL.framework */; };
-		320DEE0D27BBA151003280BE /* DL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7827BBA14D003280BE /* DL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE0E27BBA151003280BE /* AN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7927BBA14D003280BE /* AN.framework */; };
-		320DEE0F27BBA151003280BE /* AN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7927BBA14D003280BE /* AN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1027BBA151003280BE /* CR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7A27BBA14D003280BE /* CR.framework */; };
-		320DEE1127BBA151003280BE /* CR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7A27BBA14D003280BE /* CR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1227BBA151003280BE /* CS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7B27BBA14D003280BE /* CS.framework */; };
-		320DEE1327BBA151003280BE /* CS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7B27BBA14D003280BE /* CS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1427BBA151003280BE /* CP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7C27BBA14D003280BE /* CP.framework */; };
-		320DEE1527BBA151003280BE /* CP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7C27BBA14D003280BE /* CP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1627BBA151003280BE /* CI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7D27BBA14D003280BE /* CI.framework */; };
-		320DEE1727BBA151003280BE /* CI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7D27BBA14D003280BE /* CI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1827BBA151003280BE /* DQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7E27BBA14D003280BE /* DQ.framework */; };
-		320DEE1927BBA152003280BE /* DQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7E27BBA14D003280BE /* DQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1A27BBA152003280BE /* CZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7F27BBA14D003280BE /* CZ.framework */; };
-		320DEE1B27BBA152003280BE /* CZ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED7F27BBA14D003280BE /* CZ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1C27BBA152003280BE /* BB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8027BBA14D003280BE /* BB.framework */; };
-		320DEE1D27BBA152003280BE /* BB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8027BBA14D003280BE /* BB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE1E27BBA152003280BE /* CA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8127BBA14D003280BE /* CA.framework */; };
-		320DEE1F27BBA152003280BE /* CA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8127BBA14D003280BE /* CA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2027BBA152003280BE /* DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8227BBA14D003280BE /* DI.framework */; };
-		320DEE2127BBA152003280BE /* DI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8227BBA14D003280BE /* DI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2227BBA152003280BE /* AA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8327BBA14D003280BE /* AA.framework */; };
-		320DEE2327BBA152003280BE /* AA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8327BBA14D003280BE /* AA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2427BBA152003280BE /* CV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8427BBA14D003280BE /* CV.framework */; };
-		320DEE2527BBA152003280BE /* CV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8427BBA14D003280BE /* CV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2627BBA152003280BE /* AZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8527BBA14D003280BE /* AZ.framework */; };
-		320DEE2727BBA152003280BE /* AZ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8527BBA14D003280BE /* AZ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2827BBA152003280BE /* AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8627BBA14D003280BE /* AR.framework */; };
-		320DEE2927BBA152003280BE /* AR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8627BBA14D003280BE /* AR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2A27BBA152003280BE /* BL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8727BBA14D003280BE /* BL.framework */; };
-		320DEE2B27BBA152003280BE /* BL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8727BBA14D003280BE /* BL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2C27BBA153003280BE /* DR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8827BBA14D003280BE /* DR.framework */; };
-		320DEE2D27BBA153003280BE /* DR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8827BBA14D003280BE /* DR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE2E27BBA153003280BE /* DS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8927BBA14D003280BE /* DS.framework */; };
-		320DEE2F27BBA153003280BE /* DS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8927BBA14D003280BE /* DS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3027BBA153003280BE /* CJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8A27BBA14D003280BE /* CJ.framework */; };
-		320DEE3127BBA153003280BE /* CJ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8A27BBA14D003280BE /* CJ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3227BBA153003280BE /* DA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8B27BBA14D003280BE /* DA.framework */; };
-		320DEE3327BBA153003280BE /* DA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8B27BBA14D003280BE /* DA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3427BBA153003280BE /* BQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8C27BBA14D003280BE /* BQ.framework */; };
-		320DEE3527BBA153003280BE /* BQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8C27BBA14D003280BE /* BQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3627BBA153003280BE /* AO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8D27BBA14D003280BE /* AO.framework */; };
-		320DEE3727BBA153003280BE /* AO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8D27BBA14D003280BE /* AO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3827BBA153003280BE /* DK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8E27BBA14D003280BE /* DK.framework */; };
-		320DEE3927BBA153003280BE /* DK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8E27BBA14D003280BE /* DK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3A27BBA153003280BE /* CD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8F27BBA14D003280BE /* CD.framework */; };
-		320DEE3B27BBA153003280BE /* CD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED8F27BBA14D003280BE /* CD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3C27BBA153003280BE /* AG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9027BBA14E003280BE /* AG.framework */; };
-		320DEE3D27BBA154003280BE /* AG.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9027BBA14E003280BE /* AG.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE3E27BBA154003280BE /* DE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9127BBA14E003280BE /* DE.framework */; };
-		320DEE3F27BBA154003280BE /* DE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9127BBA14E003280BE /* DE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4027BBA154003280BE /* DJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9227BBA14E003280BE /* DJ.framework */; };
-		320DEE4127BBA154003280BE /* DJ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9227BBA14E003280BE /* DJ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4227BBA154003280BE /* AH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9327BBA14E003280BE /* AH.framework */; };
-		320DEE4327BBA154003280BE /* AH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9327BBA14E003280BE /* AH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4427BBA154003280BE /* CH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9427BBA14E003280BE /* CH.framework */; };
-		320DEE4527BBA154003280BE /* CH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9427BBA14E003280BE /* CH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4627BBA154003280BE /* BP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9527BBA14E003280BE /* BP.framework */; };
-		320DEE4727BBA154003280BE /* BP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9527BBA14E003280BE /* BP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4827BBA154003280BE /* AU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9627BBA14E003280BE /* AU.framework */; };
-		320DEE4927BBA154003280BE /* AU.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9627BBA14E003280BE /* AU.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4A27BBA154003280BE /* AB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9727BBA14E003280BE /* AB.framework */; };
-		320DEE4B27BBA154003280BE /* AB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9727BBA14E003280BE /* AB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4C27BBA155003280BE /* DV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9827BBA14E003280BE /* DV.framework */; };
-		320DEE4D27BBA155003280BE /* DV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9827BBA14E003280BE /* DV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE4E27BBA155003280BE /* AE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9927BBA14E003280BE /* AE.framework */; };
-		320DEE4F27BBA155003280BE /* AE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9927BBA14E003280BE /* AE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5027BBA155003280BE /* AX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9A27BBA14E003280BE /* AX.framework */; };
-		320DEE5127BBA155003280BE /* AX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9A27BBA14E003280BE /* AX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5227BBA155003280BE /* DO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9B27BBA14E003280BE /* DO.framework */; };
-		320DEE5327BBA155003280BE /* DO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9B27BBA14E003280BE /* DO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5427BBA155003280BE /* BM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9C27BBA14E003280BE /* BM.framework */; };
-		320DEE5527BBA155003280BE /* BM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9C27BBA14E003280BE /* BM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5627BBA155003280BE /* AM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9D27BBA14E003280BE /* AM.framework */; };
-		320DEE5727BBA155003280BE /* AM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9D27BBA14E003280BE /* AM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5827BBA155003280BE /* DH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9E27BBA14E003280BE /* DH.framework */; };
-		320DEE5927BBA155003280BE /* DH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9E27BBA14E003280BE /* DH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5A27BBA155003280BE /* BJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9F27BBA14E003280BE /* BJ.framework */; };
-		320DEE5B27BBA156003280BE /* BJ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DED9F27BBA14E003280BE /* BJ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5C27BBA156003280BE /* BH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA027BBA14E003280BE /* BH.framework */; };
-		320DEE5D27BBA156003280BE /* BH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA027BBA14E003280BE /* BH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE5E27BBA156003280BE /* CX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA127BBA14E003280BE /* CX.framework */; };
-		320DEE5F27BBA156003280BE /* CX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA127BBA14E003280BE /* CX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6027BBA156003280BE /* BA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA227BBA14E003280BE /* BA.framework */; };
-		320DEE6127BBA156003280BE /* BA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA227BBA14E003280BE /* BA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6227BBA156003280BE /* CE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA327BBA14E003280BE /* CE.framework */; };
-		320DEE6327BBA156003280BE /* CE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA327BBA14E003280BE /* CE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6427BBA156003280BE /* CF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA427BBA14E003280BE /* CF.framework */; };
-		320DEE6527BBA156003280BE /* CF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA427BBA14E003280BE /* CF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6627BBA156003280BE /* DP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA527BBA14E003280BE /* DP.framework */; };
-		320DEE6727BBA156003280BE /* DP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA527BBA14E003280BE /* DP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6827BBA157003280BE /* BF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA627BBA14E003280BE /* BF.framework */; };
-		320DEE6927BBA157003280BE /* BF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA627BBA14E003280BE /* BF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6A27BBA157003280BE /* DG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA727BBA14E003280BE /* DG.framework */; };
-		320DEE6B27BBA157003280BE /* DG.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA727BBA14E003280BE /* DG.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6C27BBA157003280BE /* BY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA827BBA14E003280BE /* BY.framework */; };
-		320DEE6D27BBA157003280BE /* BY.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA827BBA14E003280BE /* BY.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE6E27BBA157003280BE /* DT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA927BBA14E003280BE /* DT.framework */; };
-		320DEE6F27BBA157003280BE /* DT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDA927BBA14E003280BE /* DT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE7027BBA157003280BE /* BN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDAA27BBA14E003280BE /* BN.framework */; };
-		320DEE7127BBA157003280BE /* BN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDAA27BBA14E003280BE /* BN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		320DEE7227BBA157003280BE /* AJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDAB27BBA14E003280BE /* AJ.framework */; };
-		320DEE7327BBA157003280BE /* AJ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 320DEDAB27BBA14E003280BE /* AJ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		320DEE7627BBA1A1003280BE /* StubFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DEE7527BBA1A1003280BE /* StubFrameworks.swift */; };
+		320E3C6627BF7C0800901624 /* AJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0227BF7C0400901624 /* AJStub.framework */; };
+		320E3C6727BF7C0800901624 /* AZStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0327BF7C0400901624 /* AZStub.framework */; };
+		320E3C6827BF7C0800901624 /* BTStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0427BF7C0400901624 /* BTStub.framework */; };
+		320E3C6927BF7C0800901624 /* BSStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0527BF7C0400901624 /* BSStub.framework */; };
+		320E3C6A27BF7C0800901624 /* CVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0627BF7C0400901624 /* CVStub.framework */; };
+		320E3C6B27BF7C0800901624 /* DPStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0727BF7C0400901624 /* DPStub.framework */; };
+		320E3C6C27BF7C0800901624 /* DFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0827BF7C0400901624 /* DFStub.framework */; };
+		320E3C6D27BF7C0800901624 /* DRStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0927BF7C0400901624 /* DRStub.framework */; };
+		320E3C6E27BF7C0800901624 /* AFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0A27BF7C0400901624 /* AFStub.framework */; };
+		320E3C6F27BF7C0800901624 /* AAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0B27BF7C0400901624 /* AAStub.framework */; };
+		320E3C7027BF7C0800901624 /* BNStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0C27BF7C0400901624 /* BNStub.framework */; };
+		320E3C7127BF7C0800901624 /* CHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0D27BF7C0400901624 /* CHStub.framework */; };
+		320E3C7227BF7C0800901624 /* APStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0E27BF7C0400901624 /* APStub.framework */; };
+		320E3C7327BF7C0800901624 /* ASStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C0F27BF7C0400901624 /* ASStub.framework */; };
+		320E3C7427BF7C0800901624 /* BBStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1027BF7C0400901624 /* BBStub.framework */; };
+		320E3C7527BF7C0800901624 /* DCStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1127BF7C0400901624 /* DCStub.framework */; };
+		320E3C7627BF7C0800901624 /* DGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1227BF7C0400901624 /* DGStub.framework */; };
+		320E3C7727BF7C0800901624 /* BYStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1327BF7C0500901624 /* BYStub.framework */; };
+		320E3C7827BF7C0800901624 /* CJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1427BF7C0500901624 /* CJStub.framework */; };
+		320E3C7927BF7C0800901624 /* CDStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1527BF7C0500901624 /* CDStub.framework */; };
+		320E3C7A27BF7C0800901624 /* CSStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1627BF7C0500901624 /* CSStub.framework */; };
+		320E3C7B27BF7C0800901624 /* DHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1727BF7C0500901624 /* DHStub.framework */; };
+		320E3C7C27BF7C0800901624 /* AEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1827BF7C0500901624 /* AEStub.framework */; };
+		320E3C7D27BF7C0800901624 /* BXStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1927BF7C0500901624 /* BXStub.framework */; };
+		320E3C7E27BF7C0800901624 /* CMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1A27BF7C0500901624 /* CMStub.framework */; };
+		320E3C7F27BF7C0800901624 /* AKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1B27BF7C0500901624 /* AKStub.framework */; };
+		320E3C8027BF7C0800901624 /* DOStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1C27BF7C0500901624 /* DOStub.framework */; };
+		320E3C8127BF7C0800901624 /* CNStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1D27BF7C0500901624 /* CNStub.framework */; };
+		320E3C8227BF7C0800901624 /* BMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1E27BF7C0500901624 /* BMStub.framework */; };
+		320E3C8327BF7C0800901624 /* BHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C1F27BF7C0500901624 /* BHStub.framework */; };
+		320E3C8427BF7C0800901624 /* BUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2027BF7C0500901624 /* BUStub.framework */; };
+		320E3C8527BF7C0800901624 /* DLStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2127BF7C0500901624 /* DLStub.framework */; };
+		320E3C8627BF7C0800901624 /* AGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2227BF7C0500901624 /* AGStub.framework */; };
+		320E3C8727BF7C0800901624 /* BQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2327BF7C0500901624 /* BQStub.framework */; };
+		320E3C8827BF7C0800901624 /* BPStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2427BF7C0500901624 /* BPStub.framework */; };
+		320E3C8927BF7C0800901624 /* BCStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2527BF7C0500901624 /* BCStub.framework */; };
+		320E3C8A27BF7C0800901624 /* DVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2627BF7C0500901624 /* DVStub.framework */; };
+		320E3C8B27BF7C0800901624 /* AYStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2727BF7C0500901624 /* AYStub.framework */; };
+		320E3C8C27BF7C0800901624 /* BIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2827BF7C0500901624 /* BIStub.framework */; };
+		320E3C8D27BF7C0800901624 /* CLStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2927BF7C0600901624 /* CLStub.framework */; };
+		320E3C8E27BF7C0800901624 /* DQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2A27BF7C0600901624 /* DQStub.framework */; };
+		320E3C8F27BF7C0800901624 /* BWStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2B27BF7C0600901624 /* BWStub.framework */; };
+		320E3C9027BF7C0800901624 /* ARStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2C27BF7C0600901624 /* ARStub.framework */; };
+		320E3C9127BF7C0800901624 /* DMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2D27BF7C0600901624 /* DMStub.framework */; };
+		320E3C9227BF7C0800901624 /* CQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2E27BF7C0600901624 /* CQStub.framework */; };
+		320E3C9327BF7C0800901624 /* CRStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C2F27BF7C0600901624 /* CRStub.framework */; };
+		320E3C9427BF7C0800901624 /* AMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3027BF7C0600901624 /* AMStub.framework */; };
+		320E3C9527BF7C0800901624 /* COStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3127BF7C0600901624 /* COStub.framework */; };
+		320E3C9627BF7C0800901624 /* DIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3227BF7C0600901624 /* DIStub.framework */; };
+		320E3C9727BF7C0800901624 /* AQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3327BF7C0600901624 /* AQStub.framework */; };
+		320E3C9827BF7C0800901624 /* AVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3427BF7C0600901624 /* AVStub.framework */; };
+		320E3C9927BF7C0800901624 /* AUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3527BF7C0600901624 /* AUStub.framework */; };
+		320E3C9A27BF7C0800901624 /* DDStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3627BF7C0600901624 /* DDStub.framework */; };
+		320E3C9B27BF7C0800901624 /* ANStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3727BF7C0600901624 /* ANStub.framework */; };
+		320E3C9C27BF7C0800901624 /* CUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3827BF7C0600901624 /* CUStub.framework */; };
+		320E3C9D27BF7C0800901624 /* ACStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3927BF7C0600901624 /* ACStub.framework */; };
+		320E3C9E27BF7C0800901624 /* CEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3A27BF7C0600901624 /* CEStub.framework */; };
+		320E3C9F27BF7C0800901624 /* CPStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3B27BF7C0600901624 /* CPStub.framework */; };
+		320E3CA027BF7C0800901624 /* BLStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3C27BF7C0600901624 /* BLStub.framework */; };
+		320E3CA127BF7C0800901624 /* BVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3D27BF7C0600901624 /* BVStub.framework */; };
+		320E3CA227BF7C0800901624 /* CAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3E27BF7C0600901624 /* CAStub.framework */; };
+		320E3CA327BF7C0800901624 /* BZStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C3F27BF7C0600901624 /* BZStub.framework */; };
+		320E3CA427BF7C0800901624 /* BGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4027BF7C0700901624 /* BGStub.framework */; };
+		320E3CA527BF7C0800901624 /* CFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4127BF7C0700901624 /* CFStub.framework */; };
+		320E3CA627BF7C0800901624 /* CCStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4227BF7C0700901624 /* CCStub.framework */; };
+		320E3CA727BF7C0800901624 /* BDStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4327BF7C0700901624 /* BDStub.framework */; };
+		320E3CA827BF7C0800901624 /* AHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4427BF7C0700901624 /* AHStub.framework */; };
+		320E3CA927BF7C0800901624 /* DUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4527BF7C0700901624 /* DUStub.framework */; };
+		320E3CAA27BF7C0800901624 /* ALStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4627BF7C0700901624 /* ALStub.framework */; };
+		320E3CAB27BF7C0800901624 /* AIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4727BF7C0700901624 /* AIStub.framework */; };
+		320E3CAC27BF7C0800901624 /* DKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4827BF7C0700901624 /* DKStub.framework */; };
+		320E3CAD27BF7C0800901624 /* AOStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4927BF7C0700901624 /* AOStub.framework */; };
+		320E3CAE27BF7C0800901624 /* BKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4A27BF7C0700901624 /* BKStub.framework */; };
+		320E3CAF27BF7C0800901624 /* DSStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4B27BF7C0700901624 /* DSStub.framework */; };
+		320E3CB027BF7C0800901624 /* BOStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4C27BF7C0700901624 /* BOStub.framework */; };
+		320E3CB127BF7C0800901624 /* CKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4D27BF7C0700901624 /* CKStub.framework */; };
+		320E3CB227BF7C0800901624 /* CIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4E27BF7C0700901624 /* CIStub.framework */; };
+		320E3CB327BF7C0800901624 /* DNStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C4F27BF7C0700901624 /* DNStub.framework */; };
+		320E3CB427BF7C0800901624 /* BAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5027BF7C0700901624 /* BAStub.framework */; };
+		320E3CB527BF7C0800901624 /* CBStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5127BF7C0700901624 /* CBStub.framework */; };
+		320E3CB627BF7C0800901624 /* CWStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5227BF7C0700901624 /* CWStub.framework */; };
+		320E3CB727BF7C0800901624 /* ABStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5327BF7C0700901624 /* ABStub.framework */; };
+		320E3CB827BF7C0800901624 /* CZStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5427BF7C0700901624 /* CZStub.framework */; };
+		320E3CB927BF7C0800901624 /* AXStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5527BF7C0700901624 /* AXStub.framework */; };
+		320E3CBA27BF7C0800901624 /* CGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5627BF7C0700901624 /* CGStub.framework */; };
+		320E3CBB27BF7C0800901624 /* DBStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5727BF7C0800901624 /* DBStub.framework */; };
+		320E3CBC27BF7C0800901624 /* DAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5827BF7C0800901624 /* DAStub.framework */; };
+		320E3CBD27BF7C0800901624 /* CTStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5927BF7C0800901624 /* CTStub.framework */; };
+		320E3CBE27BF7C0900901624 /* DJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5A27BF7C0800901624 /* DJStub.framework */; };
+		320E3CBF27BF7C0900901624 /* AWStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5B27BF7C0800901624 /* AWStub.framework */; };
+		320E3CC027BF7C0900901624 /* BEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5C27BF7C0800901624 /* BEStub.framework */; };
+		320E3CC127BF7C0900901624 /* BFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5D27BF7C0800901624 /* BFStub.framework */; };
+		320E3CC227BF7C0900901624 /* ATStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5E27BF7C0800901624 /* ATStub.framework */; };
+		320E3CC327BF7C0900901624 /* DTStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C5F27BF7C0800901624 /* DTStub.framework */; };
+		320E3CC427BF7C0900901624 /* BJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C6027BF7C0800901624 /* BJStub.framework */; };
+		320E3CC527BF7C0900901624 /* ADStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C6127BF7C0800901624 /* ADStub.framework */; };
+		320E3CC627BF7C0900901624 /* CXStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C6227BF7C0800901624 /* CXStub.framework */; };
+		320E3CC727BF7C0900901624 /* CYStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C6327BF7C0800901624 /* CYStub.framework */; };
+		320E3CC827BF7C0900901624 /* BRStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C6427BF7C0800901624 /* BRStub.framework */; };
+		320E3CC927BF7C0900901624 /* DEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E3C6527BF7C0800901624 /* DEStub.framework */; };
+		326C4E6927BF7107003D8296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C4E6827BF7107003D8296 /* AppDelegate.swift */; };
+		326C4E6B27BF7107003D8296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C4E6A27BF7107003D8296 /* ViewController.swift */; };
+		326C4E6D27BF710A003D8296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326C4E6C27BF710A003D8296 /* Assets.xcassets */; };
+		326C4E7027BF710A003D8296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326C4E6E27BF710A003D8296 /* Main.storyboard */; };
+		328E173A27BF79530015C64A /* StubFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320DEE7527BBA1A1003280BE /* StubFrameworks.swift */; };
+		32C734D627CE450E006DA0DA /* OCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C734D527CE450E006DA0DA /* OCPerson.m */; };
+		32FF88CD27C387A60080AADF /* AAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AF27C387950080AADF /* AAStub.framework */; };
+		32FF88CE27C387A60080AADF /* ABStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887D27C387930080AADF /* ABStub.framework */; };
+		32FF88CF27C387A60080AADF /* ACStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A527C387950080AADF /* ACStub.framework */; };
+		32FF88D027C387A60080AADF /* ADStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887227C387930080AADF /* ADStub.framework */; };
+		32FF88D127C387A60080AADF /* AEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A727C387950080AADF /* AEStub.framework */; };
+		32FF88D227C387A60080AADF /* AFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886927C387930080AADF /* AFStub.framework */; };
+		32FF88D327C387A60080AADF /* AGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88BF27C387960080AADF /* AGStub.framework */; };
+		32FF88D427C387A60080AADF /* AHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A127C387950080AADF /* AHStub.framework */; };
+		32FF88D527C387A60080AADF /* AIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A927C387950080AADF /* AIStub.framework */; };
+		32FF88D627C387A60080AADF /* AJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C727C387970080AADF /* AJStub.framework */; };
+		32FF88D727C387A60080AADF /* AKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C127C387960080AADF /* AKStub.framework */; };
+		32FF88D827C387A60080AADF /* ALStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886C27C387930080AADF /* ALStub.framework */; };
+		32FF88D927C387A60080AADF /* AMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B127C387950080AADF /* AMStub.framework */; };
+		32FF88DA27C387A60080AADF /* ANStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C827C387970080AADF /* ANStub.framework */; };
+		32FF88DB27C387A60080AADF /* AOStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887827C387930080AADF /* AOStub.framework */; };
+		32FF88DC27C387A60080AADF /* APStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A627C387950080AADF /* APStub.framework */; };
+		32FF88DD27C387A60080AADF /* AQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C627C387970080AADF /* AQStub.framework */; };
+		32FF88DE27C387A60080AADF /* ARStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887727C387930080AADF /* ARStub.framework */; };
+		32FF88DF27C387A60080AADF /* ASStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889427C387940080AADF /* ASStub.framework */; };
+		32FF88E027C387A60080AADF /* ATStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C027C387960080AADF /* ATStub.framework */; };
+		32FF88E127C387A60080AADF /* AUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AE27C387950080AADF /* AUStub.framework */; };
+		32FF88E227C387A60080AADF /* AVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889127C387940080AADF /* AVStub.framework */; };
+		32FF88E327C387A60080AADF /* AWStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888E27C387940080AADF /* AWStub.framework */; };
+		32FF88E427C387A60080AADF /* AXStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889827C387940080AADF /* AXStub.framework */; };
+		32FF88E527C387A60080AADF /* AYStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889627C387940080AADF /* AYStub.framework */; };
+		32FF88E627C387A60080AADF /* AZStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888127C387930080AADF /* AZStub.framework */; };
+		32FF88E727C387A60080AADF /* BAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C527C387970080AADF /* BAStub.framework */; };
+		32FF88E827C387A60080AADF /* BBStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889227C387940080AADF /* BBStub.framework */; };
+		32FF88E927C387A60080AADF /* BCStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887527C387930080AADF /* BCStub.framework */; };
+		32FF88EA27C387A60080AADF /* BDStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888727C387940080AADF /* BDStub.framework */; };
+		32FF88EB27C387A60080AADF /* BEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886E27C387930080AADF /* BEStub.framework */; };
+		32FF88EC27C387A60080AADF /* BFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887927C387930080AADF /* BFStub.framework */; };
+		32FF88ED27C387A60080AADF /* BGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887B27C387930080AADF /* BGStub.framework */; };
+		32FF88EE27C387A60080AADF /* BHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AC27C387950080AADF /* BHStub.framework */; };
+		32FF88EF27C387A60080AADF /* BIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887F27C387930080AADF /* BIStub.framework */; };
+		32FF88F027C387A60080AADF /* BJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AD27C387950080AADF /* BJStub.framework */; };
+		32FF88F127C387A60080AADF /* BKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887427C387930080AADF /* BKStub.framework */; };
+		32FF88F227C387A60080AADF /* BLStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889E27C387950080AADF /* BLStub.framework */; };
+		32FF88F327C387A60080AADF /* BMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889A27C387950080AADF /* BMStub.framework */; };
+		32FF88F427C387A60080AADF /* BNStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888627C387940080AADF /* BNStub.framework */; };
+		32FF88F527C387A60080AADF /* BOStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AB27C387950080AADF /* BOStub.framework */; };
+		32FF88F627C387A60080AADF /* BPStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88BA27C387960080AADF /* BPStub.framework */; };
+		32FF88F727C387A60080AADF /* BQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889F27C387950080AADF /* BQStub.framework */; };
+		32FF88F827C387A60080AADF /* BRStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88AA27C387950080AADF /* BRStub.framework */; };
+		32FF88F927C387A60080AADF /* BSStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886F27C387930080AADF /* BSStub.framework */; };
+		32FF88FA27C387A60080AADF /* BTStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B927C387960080AADF /* BTStub.framework */; };
+		32FF88FB27C387A60080AADF /* BUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888827C387940080AADF /* BUStub.framework */; };
+		32FF88FC27C387A60080AADF /* BVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88BE27C387960080AADF /* BVStub.framework */; };
+		32FF88FD27C387A60080AADF /* BWStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A227C387950080AADF /* BWStub.framework */; };
+		32FF88FE27C387A60080AADF /* BXStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B427C387960080AADF /* BXStub.framework */; };
+		32FF88FF27C387A60080AADF /* BYStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889727C387940080AADF /* BYStub.framework */; };
+		32FF890027C387A60080AADF /* BZStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889D27C387950080AADF /* BZStub.framework */; };
+		32FF890127C387A60080AADF /* CAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888D27C387940080AADF /* CAStub.framework */; };
+		32FF890227C387A60080AADF /* CBStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B727C387960080AADF /* CBStub.framework */; };
+		32FF890327C387A60080AADF /* CCStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889027C387940080AADF /* CCStub.framework */; };
+		32FF890427C387A60080AADF /* CDStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887C27C387930080AADF /* CDStub.framework */; };
+		32FF890527C387A60080AADF /* CEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888A27C387940080AADF /* CEStub.framework */; };
+		32FF890627C387A60080AADF /* CFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88BC27C387960080AADF /* CFStub.framework */; };
+		32FF890727C387A60080AADF /* CGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C927C387970080AADF /* CGStub.framework */; };
+		32FF890827C387A60080AADF /* CHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887627C387930080AADF /* CHStub.framework */; };
+		32FF890927C387A60080AADF /* CIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889C27C387950080AADF /* CIStub.framework */; };
+		32FF890A27C387A60080AADF /* CJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886D27C387930080AADF /* CJStub.framework */; };
+		32FF890B27C387A60080AADF /* CKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C427C387960080AADF /* CKStub.framework */; };
+		32FF890C27C387A60080AADF /* CLStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B227C387960080AADF /* CLStub.framework */; };
+		32FF890D27C387A60080AADF /* CMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C327C387960080AADF /* CMStub.framework */; };
+		32FF890E27C387A60080AADF /* CNStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889B27C387950080AADF /* CNStub.framework */; };
+		32FF890F27C387A60080AADF /* COStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886A27C387930080AADF /* COStub.framework */; };
+		32FF891027C387A60080AADF /* CPStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88C227C387960080AADF /* CPStub.framework */; };
+		32FF891127C387A60080AADF /* CQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88CA27C387970080AADF /* CQStub.framework */; };
+		32FF891227C387A60080AADF /* CRStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887327C387930080AADF /* CRStub.framework */; };
+		32FF891327C387A60080AADF /* CSStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888227C387940080AADF /* CSStub.framework */; };
+		32FF891427C387A60080AADF /* CTStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888B27C387940080AADF /* CTStub.framework */; };
+		32FF891527C387A60080AADF /* CUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888F27C387940080AADF /* CUStub.framework */; };
+		32FF891627C387A60080AADF /* CVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887E27C387930080AADF /* CVStub.framework */; };
+		32FF891727C387A60080AADF /* CWStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889927C387940080AADF /* CWStub.framework */; };
+		32FF891827C387A60080AADF /* CXStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A027C387950080AADF /* CXStub.framework */; };
+		32FF891927C387A60080AADF /* CYStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888027C387930080AADF /* CYStub.framework */; };
+		32FF891A27C387A60080AADF /* CZStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B627C387960080AADF /* CZStub.framework */; };
+		32FF891B27C387A60080AADF /* DAStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889327C387940080AADF /* DAStub.framework */; };
+		32FF891C27C387A60080AADF /* DBStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88BD27C387960080AADF /* DBStub.framework */; };
+		32FF891D27C387A60080AADF /* DCStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88CC27C387970080AADF /* DCStub.framework */; };
+		32FF891E27C387A60080AADF /* DDStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A827C387950080AADF /* DDStub.framework */; };
+		32FF891F27C387A60080AADF /* DEStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888C27C387940080AADF /* DEStub.framework */; };
+		32FF892027C387A60080AADF /* DFStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B527C387960080AADF /* DFStub.framework */; };
+		32FF892127C387A60080AADF /* DGStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A427C387950080AADF /* DGStub.framework */; };
+		32FF892227C387A60080AADF /* DHStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B027C387950080AADF /* DHStub.framework */; };
+		32FF892327C387A60080AADF /* DIStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887A27C387930080AADF /* DIStub.framework */; };
+		32FF892427C387A60080AADF /* DJStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88A327C387950080AADF /* DJStub.framework */; };
+		32FF892527C387A60080AADF /* DKStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88BB27C387960080AADF /* DKStub.framework */; };
+		32FF892627C387A60080AADF /* DLStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF886B27C387930080AADF /* DLStub.framework */; };
+		32FF892727C387A60080AADF /* DMStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888527C387940080AADF /* DMStub.framework */; };
+		32FF892827C387A60080AADF /* DNStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887027C387930080AADF /* DNStub.framework */; };
+		32FF892927C387A60080AADF /* DOStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF887127C387930080AADF /* DOStub.framework */; };
+		32FF892A27C387A60080AADF /* DPStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF889527C387940080AADF /* DPStub.framework */; };
+		32FF892B27C387A60080AADF /* DQStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888927C387940080AADF /* DQStub.framework */; };
+		32FF892C27C387A60080AADF /* DRStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B827C387960080AADF /* DRStub.framework */; };
+		32FF892D27C387A60080AADF /* DSStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88CB27C387970080AADF /* DSStub.framework */; };
+		32FF892E27C387A60080AADF /* DTStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888327C387940080AADF /* DTStub.framework */; };
+		32FF892F27C387A60080AADF /* DUStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF88B327C387960080AADF /* DUStub.framework */; };
+		32FF893027C387A60080AADF /* DVStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF888427C387940080AADF /* DVStub.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		320DEE7427BBA158003280BE /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				320DEDC727BBA14F003280BE /* CM.framework in Embed Frameworks */,
-				320DEE0F27BBA151003280BE /* AN.framework in Embed Frameworks */,
-				320DEE6727BBA156003280BE /* DP.framework in Embed Frameworks */,
-				320DEE6127BBA156003280BE /* BA.framework in Embed Frameworks */,
-				320DEDAF27BBA14E003280BE /* CK.framework in Embed Frameworks */,
-				320DEE2F27BBA153003280BE /* DS.framework in Embed Frameworks */,
-				320DEE4D27BBA155003280BE /* DV.framework in Embed Frameworks */,
-				320DEE0327BBA151003280BE /* CO.framework in Embed Frameworks */,
-				320DEE6927BBA157003280BE /* BF.framework in Embed Frameworks */,
-				320DEE5927BBA155003280BE /* DH.framework in Embed Frameworks */,
-				320DEE2127BBA152003280BE /* DI.framework in Embed Frameworks */,
-				320DEDEB27BBA150003280BE /* AY.framework in Embed Frameworks */,
-				320DEE3527BBA153003280BE /* BQ.framework in Embed Frameworks */,
-				320DEDF527BBA150003280BE /* DN.framework in Embed Frameworks */,
-				320DEE5727BBA155003280BE /* AM.framework in Embed Frameworks */,
-				320DEE1927BBA152003280BE /* DQ.framework in Embed Frameworks */,
-				320DEDCF27BBA14F003280BE /* DF.framework in Embed Frameworks */,
-				320DEDBB27BBA14F003280BE /* DU.framework in Embed Frameworks */,
-				320DEDEF27BBA150003280BE /* AT.framework in Embed Frameworks */,
-				320DEE6B27BBA157003280BE /* DG.framework in Embed Frameworks */,
-				320DEE1F27BBA152003280BE /* CA.framework in Embed Frameworks */,
-				320DEDD727BBA14F003280BE /* BR.framework in Embed Frameworks */,
-				320DEE0B27BBA151003280BE /* DM.framework in Embed Frameworks */,
-				320DEE1127BBA151003280BE /* CR.framework in Embed Frameworks */,
-				320DEE2527BBA152003280BE /* CV.framework in Embed Frameworks */,
-				320DEE1D27BBA152003280BE /* BB.framework in Embed Frameworks */,
-				320DEE6F27BBA157003280BE /* DT.framework in Embed Frameworks */,
-				320DEE1527BBA151003280BE /* CP.framework in Embed Frameworks */,
-				320DEE3927BBA153003280BE /* DK.framework in Embed Frameworks */,
-				320DEE0127BBA150003280BE /* AW.framework in Embed Frameworks */,
-				320DEE2927BBA152003280BE /* AR.framework in Embed Frameworks */,
-				320DEE2327BBA152003280BE /* AA.framework in Embed Frameworks */,
-				320DEE5127BBA155003280BE /* AX.framework in Embed Frameworks */,
-				320DEDBF27BBA14F003280BE /* AK.framework in Embed Frameworks */,
-				320DEE2B27BBA152003280BE /* BL.framework in Embed Frameworks */,
-				320DEE7327BBA157003280BE /* AJ.framework in Embed Frameworks */,
-				320DEDD927BBA14F003280BE /* BS.framework in Embed Frameworks */,
-				320DEDF327BBA150003280BE /* CB.framework in Embed Frameworks */,
-				320DEDC127BBA14F003280BE /* CT.framework in Embed Frameworks */,
-				320DEDE727BBA150003280BE /* BX.framework in Embed Frameworks */,
-				320DEE2727BBA152003280BE /* AZ.framework in Embed Frameworks */,
-				320DEE3B27BBA153003280BE /* CD.framework in Embed Frameworks */,
-				320DEDD527BBA14F003280BE /* BC.framework in Embed Frameworks */,
-				320DEE5F27BBA156003280BE /* CX.framework in Embed Frameworks */,
-				320DEE4327BBA154003280BE /* AH.framework in Embed Frameworks */,
-				320DEDD327BBA14F003280BE /* BD.framework in Embed Frameworks */,
-				320DEE3727BBA153003280BE /* AO.framework in Embed Frameworks */,
-				320DEDCB27BBA14F003280BE /* AL.framework in Embed Frameworks */,
-				320DEDF727BBA150003280BE /* CU.framework in Embed Frameworks */,
-				320DEE3327BBA153003280BE /* DA.framework in Embed Frameworks */,
-				320DEE2D27BBA153003280BE /* DR.framework in Embed Frameworks */,
-				320DEE0927BBA151003280BE /* CL.framework in Embed Frameworks */,
-				320DEDB327BBA14E003280BE /* BG.framework in Embed Frameworks */,
-				320DEE4527BBA154003280BE /* CH.framework in Embed Frameworks */,
-				320DEE4127BBA154003280BE /* DJ.framework in Embed Frameworks */,
-				320DEE3F27BBA154003280BE /* DE.framework in Embed Frameworks */,
-				320DEE5D27BBA156003280BE /* BH.framework in Embed Frameworks */,
-				320DEE5327BBA155003280BE /* DO.framework in Embed Frameworks */,
-				320DEE5527BBA155003280BE /* BM.framework in Embed Frameworks */,
-				320DEDB527BBA14E003280BE /* BE.framework in Embed Frameworks */,
-				320DEE4927BBA154003280BE /* AU.framework in Embed Frameworks */,
-				320DEDE927BBA150003280BE /* AF.framework in Embed Frameworks */,
-				320DEE0727BBA151003280BE /* BV.framework in Embed Frameworks */,
-				320DEE1B27BBA152003280BE /* CZ.framework in Embed Frameworks */,
-				320DEE0D27BBA151003280BE /* DL.framework in Embed Frameworks */,
-				320DEDAD27BBA14E003280BE /* DD.framework in Embed Frameworks */,
-				320DEE7127BBA157003280BE /* BN.framework in Embed Frameworks */,
-				320DEDDD27BBA14F003280BE /* AI.framework in Embed Frameworks */,
-				320DEE3D27BBA154003280BE /* AG.framework in Embed Frameworks */,
-				320DEE6527BBA156003280BE /* CF.framework in Embed Frameworks */,
-				320DEDF927BBA150003280BE /* DC.framework in Embed Frameworks */,
-				320DEDDB27BBA14F003280BE /* CC.framework in Embed Frameworks */,
-				320DEDED27BBA150003280BE /* BU.framework in Embed Frameworks */,
-				320DEDCD27BBA14F003280BE /* CN.framework in Embed Frameworks */,
-				320DEDB927BBA14F003280BE /* CY.framework in Embed Frameworks */,
-				320DEE4B27BBA154003280BE /* AB.framework in Embed Frameworks */,
-				320DEDB727BBA14E003280BE /* CW.framework in Embed Frameworks */,
-				320DEDC927BBA14F003280BE /* DB.framework in Embed Frameworks */,
-				320DEDE127BBA14F003280BE /* CQ.framework in Embed Frameworks */,
-				320DEDF127BBA150003280BE /* BO.framework in Embed Frameworks */,
-				320DEDE327BBA14F003280BE /* BK.framework in Embed Frameworks */,
-				320DEE3127BBA153003280BE /* CJ.framework in Embed Frameworks */,
-				320DEE4727BBA154003280BE /* BP.framework in Embed Frameworks */,
-				320DEDC527BBA14F003280BE /* AP.framework in Embed Frameworks */,
-				320DEDC327BBA14F003280BE /* BW.framework in Embed Frameworks */,
-				320DEE4F27BBA155003280BE /* AE.framework in Embed Frameworks */,
-				320DEE5B27BBA156003280BE /* BJ.framework in Embed Frameworks */,
-				320DEE6327BBA156003280BE /* CE.framework in Embed Frameworks */,
-				320DEDBD27BBA14F003280BE /* BZ.framework in Embed Frameworks */,
-				320DEE0527BBA151003280BE /* AD.framework in Embed Frameworks */,
-				320DEDE527BBA14F003280BE /* CG.framework in Embed Frameworks */,
-				320DEE1727BBA151003280BE /* CI.framework in Embed Frameworks */,
-				320DEDFD27BBA150003280BE /* BI.framework in Embed Frameworks */,
-				320DEE1327BBA151003280BE /* CS.framework in Embed Frameworks */,
-				320DEDD127BBA14F003280BE /* AC.framework in Embed Frameworks */,
-				320DEDFF27BBA150003280BE /* AQ.framework in Embed Frameworks */,
-				320DEDDF27BBA14F003280BE /* AS.framework in Embed Frameworks */,
-				320DEE6D27BBA157003280BE /* BY.framework in Embed Frameworks */,
-				320DEDFB27BBA150003280BE /* BT.framework in Embed Frameworks */,
-				320DEDB127BBA14E003280BE /* AV.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slowDebugTest no-serialize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B803B4E27B4FCF7004600B7 /* slowDebugTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowDebugTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B803B5127B4FCF7004600B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B803B5327B4FCF7004600B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -448,121 +334,530 @@
 		320DEDAA27BBA14E003280BE /* BN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BN.framework; path = "build/Debug-iphonesimulator/BN.framework"; sourceTree = "<group>"; };
 		320DEDAB27BBA14E003280BE /* AJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AJ.framework; path = "build/Debug-iphonesimulator/AJ.framework"; sourceTree = "<group>"; };
 		320DEE7527BBA1A1003280BE /* StubFrameworks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubFrameworks.swift; sourceTree = SOURCE_ROOT; };
+		320E3C0227BF7C0400901624 /* AJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AJStub.framework; path = build/Debug/AJStub.framework; sourceTree = "<group>"; };
+		320E3C0327BF7C0400901624 /* AZStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AZStub.framework; path = build/Debug/AZStub.framework; sourceTree = "<group>"; };
+		320E3C0427BF7C0400901624 /* BTStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BTStub.framework; path = build/Debug/BTStub.framework; sourceTree = "<group>"; };
+		320E3C0527BF7C0400901624 /* BSStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BSStub.framework; path = build/Debug/BSStub.framework; sourceTree = "<group>"; };
+		320E3C0627BF7C0400901624 /* CVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CVStub.framework; path = build/Debug/CVStub.framework; sourceTree = "<group>"; };
+		320E3C0727BF7C0400901624 /* DPStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DPStub.framework; path = build/Debug/DPStub.framework; sourceTree = "<group>"; };
+		320E3C0827BF7C0400901624 /* DFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFStub.framework; path = build/Debug/DFStub.framework; sourceTree = "<group>"; };
+		320E3C0927BF7C0400901624 /* DRStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DRStub.framework; path = build/Debug/DRStub.framework; sourceTree = "<group>"; };
+		320E3C0A27BF7C0400901624 /* AFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFStub.framework; path = build/Debug/AFStub.framework; sourceTree = "<group>"; };
+		320E3C0B27BF7C0400901624 /* AAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AAStub.framework; path = build/Debug/AAStub.framework; sourceTree = "<group>"; };
+		320E3C0C27BF7C0400901624 /* BNStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BNStub.framework; path = build/Debug/BNStub.framework; sourceTree = "<group>"; };
+		320E3C0D27BF7C0400901624 /* CHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHStub.framework; path = build/Debug/CHStub.framework; sourceTree = "<group>"; };
+		320E3C0E27BF7C0400901624 /* APStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APStub.framework; path = build/Debug/APStub.framework; sourceTree = "<group>"; };
+		320E3C0F27BF7C0400901624 /* ASStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASStub.framework; path = build/Debug/ASStub.framework; sourceTree = "<group>"; };
+		320E3C1027BF7C0400901624 /* BBStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BBStub.framework; path = build/Debug/BBStub.framework; sourceTree = "<group>"; };
+		320E3C1127BF7C0400901624 /* DCStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCStub.framework; path = build/Debug/DCStub.framework; sourceTree = "<group>"; };
+		320E3C1227BF7C0400901624 /* DGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DGStub.framework; path = build/Debug/DGStub.framework; sourceTree = "<group>"; };
+		320E3C1327BF7C0500901624 /* BYStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BYStub.framework; path = build/Debug/BYStub.framework; sourceTree = "<group>"; };
+		320E3C1427BF7C0500901624 /* CJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CJStub.framework; path = build/Debug/CJStub.framework; sourceTree = "<group>"; };
+		320E3C1527BF7C0500901624 /* CDStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CDStub.framework; path = build/Debug/CDStub.framework; sourceTree = "<group>"; };
+		320E3C1627BF7C0500901624 /* CSStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSStub.framework; path = build/Debug/CSStub.framework; sourceTree = "<group>"; };
+		320E3C1727BF7C0500901624 /* DHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DHStub.framework; path = build/Debug/DHStub.framework; sourceTree = "<group>"; };
+		320E3C1827BF7C0500901624 /* AEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEStub.framework; path = build/Debug/AEStub.framework; sourceTree = "<group>"; };
+		320E3C1927BF7C0500901624 /* BXStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BXStub.framework; path = build/Debug/BXStub.framework; sourceTree = "<group>"; };
+		320E3C1A27BF7C0500901624 /* CMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CMStub.framework; path = build/Debug/CMStub.framework; sourceTree = "<group>"; };
+		320E3C1B27BF7C0500901624 /* AKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AKStub.framework; path = build/Debug/AKStub.framework; sourceTree = "<group>"; };
+		320E3C1C27BF7C0500901624 /* DOStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DOStub.framework; path = build/Debug/DOStub.framework; sourceTree = "<group>"; };
+		320E3C1D27BF7C0500901624 /* CNStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNStub.framework; path = build/Debug/CNStub.framework; sourceTree = "<group>"; };
+		320E3C1E27BF7C0500901624 /* BMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMStub.framework; path = build/Debug/BMStub.framework; sourceTree = "<group>"; };
+		320E3C1F27BF7C0500901624 /* BHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BHStub.framework; path = build/Debug/BHStub.framework; sourceTree = "<group>"; };
+		320E3C2027BF7C0500901624 /* BUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BUStub.framework; path = build/Debug/BUStub.framework; sourceTree = "<group>"; };
+		320E3C2127BF7C0500901624 /* DLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLStub.framework; path = build/Debug/DLStub.framework; sourceTree = "<group>"; };
+		320E3C2227BF7C0500901624 /* AGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGStub.framework; path = build/Debug/AGStub.framework; sourceTree = "<group>"; };
+		320E3C2327BF7C0500901624 /* BQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BQStub.framework; path = build/Debug/BQStub.framework; sourceTree = "<group>"; };
+		320E3C2427BF7C0500901624 /* BPStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BPStub.framework; path = build/Debug/BPStub.framework; sourceTree = "<group>"; };
+		320E3C2527BF7C0500901624 /* BCStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BCStub.framework; path = build/Debug/BCStub.framework; sourceTree = "<group>"; };
+		320E3C2627BF7C0500901624 /* DVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVStub.framework; path = build/Debug/DVStub.framework; sourceTree = "<group>"; };
+		320E3C2727BF7C0500901624 /* AYStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AYStub.framework; path = build/Debug/AYStub.framework; sourceTree = "<group>"; };
+		320E3C2827BF7C0500901624 /* BIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BIStub.framework; path = build/Debug/BIStub.framework; sourceTree = "<group>"; };
+		320E3C2927BF7C0600901624 /* CLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CLStub.framework; path = build/Debug/CLStub.framework; sourceTree = "<group>"; };
+		320E3C2A27BF7C0600901624 /* DQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DQStub.framework; path = build/Debug/DQStub.framework; sourceTree = "<group>"; };
+		320E3C2B27BF7C0600901624 /* BWStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWStub.framework; path = build/Debug/BWStub.framework; sourceTree = "<group>"; };
+		320E3C2C27BF7C0600901624 /* ARStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARStub.framework; path = build/Debug/ARStub.framework; sourceTree = "<group>"; };
+		320E3C2D27BF7C0600901624 /* DMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMStub.framework; path = build/Debug/DMStub.framework; sourceTree = "<group>"; };
+		320E3C2E27BF7C0600901624 /* CQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CQStub.framework; path = build/Debug/CQStub.framework; sourceTree = "<group>"; };
+		320E3C2F27BF7C0600901624 /* CRStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CRStub.framework; path = build/Debug/CRStub.framework; sourceTree = "<group>"; };
+		320E3C3027BF7C0600901624 /* AMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMStub.framework; path = build/Debug/AMStub.framework; sourceTree = "<group>"; };
+		320E3C3127BF7C0600901624 /* COStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COStub.framework; path = build/Debug/COStub.framework; sourceTree = "<group>"; };
+		320E3C3227BF7C0600901624 /* DIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DIStub.framework; path = build/Debug/DIStub.framework; sourceTree = "<group>"; };
+		320E3C3327BF7C0600901624 /* AQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AQStub.framework; path = build/Debug/AQStub.framework; sourceTree = "<group>"; };
+		320E3C3427BF7C0600901624 /* AVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVStub.framework; path = build/Debug/AVStub.framework; sourceTree = "<group>"; };
+		320E3C3527BF7C0600901624 /* AUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AUStub.framework; path = build/Debug/AUStub.framework; sourceTree = "<group>"; };
+		320E3C3627BF7C0600901624 /* DDStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DDStub.framework; path = build/Debug/DDStub.framework; sourceTree = "<group>"; };
+		320E3C3727BF7C0600901624 /* ANStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ANStub.framework; path = build/Debug/ANStub.framework; sourceTree = "<group>"; };
+		320E3C3827BF7C0600901624 /* CUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CUStub.framework; path = build/Debug/CUStub.framework; sourceTree = "<group>"; };
+		320E3C3927BF7C0600901624 /* ACStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ACStub.framework; path = build/Debug/ACStub.framework; sourceTree = "<group>"; };
+		320E3C3A27BF7C0600901624 /* CEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CEStub.framework; path = build/Debug/CEStub.framework; sourceTree = "<group>"; };
+		320E3C3B27BF7C0600901624 /* CPStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPStub.framework; path = build/Debug/CPStub.framework; sourceTree = "<group>"; };
+		320E3C3C27BF7C0600901624 /* BLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BLStub.framework; path = build/Debug/BLStub.framework; sourceTree = "<group>"; };
+		320E3C3D27BF7C0600901624 /* BVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BVStub.framework; path = build/Debug/BVStub.framework; sourceTree = "<group>"; };
+		320E3C3E27BF7C0600901624 /* CAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CAStub.framework; path = build/Debug/CAStub.framework; sourceTree = "<group>"; };
+		320E3C3F27BF7C0600901624 /* BZStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BZStub.framework; path = build/Debug/BZStub.framework; sourceTree = "<group>"; };
+		320E3C4027BF7C0700901624 /* BGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGStub.framework; path = build/Debug/BGStub.framework; sourceTree = "<group>"; };
+		320E3C4127BF7C0700901624 /* CFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFStub.framework; path = build/Debug/CFStub.framework; sourceTree = "<group>"; };
+		320E3C4227BF7C0700901624 /* CCStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCStub.framework; path = build/Debug/CCStub.framework; sourceTree = "<group>"; };
+		320E3C4327BF7C0700901624 /* BDStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDStub.framework; path = build/Debug/BDStub.framework; sourceTree = "<group>"; };
+		320E3C4427BF7C0700901624 /* AHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AHStub.framework; path = build/Debug/AHStub.framework; sourceTree = "<group>"; };
+		320E3C4527BF7C0700901624 /* DUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DUStub.framework; path = build/Debug/DUStub.framework; sourceTree = "<group>"; };
+		320E3C4627BF7C0700901624 /* ALStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALStub.framework; path = build/Debug/ALStub.framework; sourceTree = "<group>"; };
+		320E3C4727BF7C0700901624 /* AIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIStub.framework; path = build/Debug/AIStub.framework; sourceTree = "<group>"; };
+		320E3C4827BF7C0700901624 /* DKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKStub.framework; path = build/Debug/DKStub.framework; sourceTree = "<group>"; };
+		320E3C4927BF7C0700901624 /* AOStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOStub.framework; path = build/Debug/AOStub.framework; sourceTree = "<group>"; };
+		320E3C4A27BF7C0700901624 /* BKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BKStub.framework; path = build/Debug/BKStub.framework; sourceTree = "<group>"; };
+		320E3C4B27BF7C0700901624 /* DSStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DSStub.framework; path = build/Debug/DSStub.framework; sourceTree = "<group>"; };
+		320E3C4C27BF7C0700901624 /* BOStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BOStub.framework; path = build/Debug/BOStub.framework; sourceTree = "<group>"; };
+		320E3C4D27BF7C0700901624 /* CKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CKStub.framework; path = build/Debug/CKStub.framework; sourceTree = "<group>"; };
+		320E3C4E27BF7C0700901624 /* CIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CIStub.framework; path = build/Debug/CIStub.framework; sourceTree = "<group>"; };
+		320E3C4F27BF7C0700901624 /* DNStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DNStub.framework; path = build/Debug/DNStub.framework; sourceTree = "<group>"; };
+		320E3C5027BF7C0700901624 /* BAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BAStub.framework; path = build/Debug/BAStub.framework; sourceTree = "<group>"; };
+		320E3C5127BF7C0700901624 /* CBStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBStub.framework; path = build/Debug/CBStub.framework; sourceTree = "<group>"; };
+		320E3C5227BF7C0700901624 /* CWStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CWStub.framework; path = build/Debug/CWStub.framework; sourceTree = "<group>"; };
+		320E3C5327BF7C0700901624 /* ABStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ABStub.framework; path = build/Debug/ABStub.framework; sourceTree = "<group>"; };
+		320E3C5427BF7C0700901624 /* CZStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CZStub.framework; path = build/Debug/CZStub.framework; sourceTree = "<group>"; };
+		320E3C5527BF7C0700901624 /* AXStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AXStub.framework; path = build/Debug/AXStub.framework; sourceTree = "<group>"; };
+		320E3C5627BF7C0700901624 /* CGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CGStub.framework; path = build/Debug/CGStub.framework; sourceTree = "<group>"; };
+		320E3C5727BF7C0800901624 /* DBStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DBStub.framework; path = build/Debug/DBStub.framework; sourceTree = "<group>"; };
+		320E3C5827BF7C0800901624 /* DAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAStub.framework; path = build/Debug/DAStub.framework; sourceTree = "<group>"; };
+		320E3C5927BF7C0800901624 /* CTStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CTStub.framework; path = build/Debug/CTStub.framework; sourceTree = "<group>"; };
+		320E3C5A27BF7C0800901624 /* DJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJStub.framework; path = build/Debug/DJStub.framework; sourceTree = "<group>"; };
+		320E3C5B27BF7C0800901624 /* AWStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWStub.framework; path = build/Debug/AWStub.framework; sourceTree = "<group>"; };
+		320E3C5C27BF7C0800901624 /* BEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BEStub.framework; path = build/Debug/BEStub.framework; sourceTree = "<group>"; };
+		320E3C5D27BF7C0800901624 /* BFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BFStub.framework; path = build/Debug/BFStub.framework; sourceTree = "<group>"; };
+		320E3C5E27BF7C0800901624 /* ATStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATStub.framework; path = build/Debug/ATStub.framework; sourceTree = "<group>"; };
+		320E3C5F27BF7C0800901624 /* DTStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTStub.framework; path = build/Debug/DTStub.framework; sourceTree = "<group>"; };
+		320E3C6027BF7C0800901624 /* BJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJStub.framework; path = build/Debug/BJStub.framework; sourceTree = "<group>"; };
+		320E3C6127BF7C0800901624 /* ADStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADStub.framework; path = build/Debug/ADStub.framework; sourceTree = "<group>"; };
+		320E3C6227BF7C0800901624 /* CXStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CXStub.framework; path = build/Debug/CXStub.framework; sourceTree = "<group>"; };
+		320E3C6327BF7C0800901624 /* CYStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYStub.framework; path = build/Debug/CYStub.framework; sourceTree = "<group>"; };
+		320E3C6427BF7C0800901624 /* BRStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRStub.framework; path = build/Debug/BRStub.framework; sourceTree = "<group>"; };
+		320E3C6527BF7C0800901624 /* DEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DEStub.framework; path = build/Debug/DEStub.framework; sourceTree = "<group>"; };
+		326C4D3527BF5056003D8296 /* CB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CB.framework; path = build/Debug/CB.framework; sourceTree = "<group>"; };
+		326C4D3627BF5056003D8296 /* DI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DI.framework; path = build/Debug/DI.framework; sourceTree = "<group>"; };
+		326C4D3727BF5056003D8296 /* AI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AI.framework; path = build/Debug/AI.framework; sourceTree = "<group>"; };
+		326C4D3827BF5056003D8296 /* BW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BW.framework; path = build/Debug/BW.framework; sourceTree = "<group>"; };
+		326C4D3927BF5056003D8296 /* BU.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BU.framework; path = build/Debug/BU.framework; sourceTree = "<group>"; };
+		326C4D3A27BF5056003D8296 /* AW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AW.framework; path = build/Debug/AW.framework; sourceTree = "<group>"; };
+		326C4D3B27BF5056003D8296 /* BG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BG.framework; path = build/Debug/BG.framework; sourceTree = "<group>"; };
+		326C4D3C27BF5056003D8296 /* BA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BA.framework; path = build/Debug/BA.framework; sourceTree = "<group>"; };
+		326C4D3D27BF5056003D8296 /* CL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CL.framework; path = build/Debug/CL.framework; sourceTree = "<group>"; };
+		326C4D3E27BF5056003D8296 /* CQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CQ.framework; path = build/Debug/CQ.framework; sourceTree = "<group>"; };
+		326C4D3F27BF5056003D8296 /* CC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CC.framework; path = build/Debug/CC.framework; sourceTree = "<group>"; };
+		326C4D4027BF5056003D8296 /* AB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AB.framework; path = build/Debug/AB.framework; sourceTree = "<group>"; };
+		326C4D4127BF5057003D8296 /* DL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DL.framework; path = build/Debug/DL.framework; sourceTree = "<group>"; };
+		326C4D4227BF5057003D8296 /* CP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CP.framework; path = build/Debug/CP.framework; sourceTree = "<group>"; };
+		326C4D4327BF5057003D8296 /* AD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AD.framework; path = build/Debug/AD.framework; sourceTree = "<group>"; };
+		326C4D4427BF5057003D8296 /* CJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CJ.framework; path = build/Debug/CJ.framework; sourceTree = "<group>"; };
+		326C4D4527BF5057003D8296 /* BK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BK.framework; path = build/Debug/BK.framework; sourceTree = "<group>"; };
+		326C4D4627BF5057003D8296 /* AG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AG.framework; path = build/Debug/AG.framework; sourceTree = "<group>"; };
+		326C4D4727BF5057003D8296 /* CF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CF.framework; path = build/Debug/CF.framework; sourceTree = "<group>"; };
+		326C4D4827BF5057003D8296 /* CG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CG.framework; path = build/Debug/CG.framework; sourceTree = "<group>"; };
+		326C4D4927BF5057003D8296 /* CO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CO.framework; path = build/Debug/CO.framework; sourceTree = "<group>"; };
+		326C4D4A27BF5057003D8296 /* AX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AX.framework; path = build/Debug/AX.framework; sourceTree = "<group>"; };
+		326C4D4B27BF5057003D8296 /* BM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BM.framework; path = build/Debug/BM.framework; sourceTree = "<group>"; };
+		326C4D4C27BF5057003D8296 /* CE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CE.framework; path = build/Debug/CE.framework; sourceTree = "<group>"; };
+		326C4D4D27BF5057003D8296 /* BO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BO.framework; path = build/Debug/BO.framework; sourceTree = "<group>"; };
+		326C4D4E27BF5057003D8296 /* AF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AF.framework; path = build/Debug/AF.framework; sourceTree = "<group>"; };
+		326C4D4F27BF5057003D8296 /* BB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BB.framework; path = build/Debug/BB.framework; sourceTree = "<group>"; };
+		326C4D5027BF5057003D8296 /* AH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AH.framework; path = build/Debug/AH.framework; sourceTree = "<group>"; };
+		326C4D5127BF5057003D8296 /* AQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AQ.framework; path = build/Debug/AQ.framework; sourceTree = "<group>"; };
+		326C4D5227BF5057003D8296 /* BE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BE.framework; path = build/Debug/BE.framework; sourceTree = "<group>"; };
+		326C4D5327BF5057003D8296 /* BV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BV.framework; path = build/Debug/BV.framework; sourceTree = "<group>"; };
+		326C4D5427BF5057003D8296 /* DM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DM.framework; path = build/Debug/DM.framework; sourceTree = "<group>"; };
+		326C4D5527BF5057003D8296 /* CM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CM.framework; path = build/Debug/CM.framework; sourceTree = "<group>"; };
+		326C4D5627BF5057003D8296 /* BH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BH.framework; path = build/Debug/BH.framework; sourceTree = "<group>"; };
+		326C4D5727BF5057003D8296 /* BF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BF.framework; path = build/Debug/BF.framework; sourceTree = "<group>"; };
+		326C4D5827BF5057003D8296 /* CX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CX.framework; path = build/Debug/CX.framework; sourceTree = "<group>"; };
+		326C4D5927BF5057003D8296 /* CR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CR.framework; path = build/Debug/CR.framework; sourceTree = "<group>"; };
+		326C4D5A27BF5057003D8296 /* AM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AM.framework; path = build/Debug/AM.framework; sourceTree = "<group>"; };
+		326C4D5B27BF5057003D8296 /* BP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BP.framework; path = build/Debug/BP.framework; sourceTree = "<group>"; };
+		326C4D5C27BF5057003D8296 /* DT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DT.framework; path = build/Debug/DT.framework; sourceTree = "<group>"; };
+		326C4D5D27BF5057003D8296 /* AC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AC.framework; path = build/Debug/AC.framework; sourceTree = "<group>"; };
+		326C4D5E27BF5057003D8296 /* DB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DB.framework; path = build/Debug/DB.framework; sourceTree = "<group>"; };
+		326C4D5F27BF5057003D8296 /* CW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CW.framework; path = build/Debug/CW.framework; sourceTree = "<group>"; };
+		326C4D6027BF5057003D8296 /* BL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BL.framework; path = build/Debug/BL.framework; sourceTree = "<group>"; };
+		326C4D6127BF5058003D8296 /* DU.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DU.framework; path = build/Debug/DU.framework; sourceTree = "<group>"; };
+		326C4D6227BF5058003D8296 /* BN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BN.framework; path = build/Debug/BN.framework; sourceTree = "<group>"; };
+		326C4D6327BF5058003D8296 /* DJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJ.framework; path = build/Debug/DJ.framework; sourceTree = "<group>"; };
+		326C4D6427BF5058003D8296 /* AU.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AU.framework; path = build/Debug/AU.framework; sourceTree = "<group>"; };
+		326C4D6527BF5058003D8296 /* AY.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AY.framework; path = build/Debug/AY.framework; sourceTree = "<group>"; };
+		326C4D6627BF5058003D8296 /* AL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AL.framework; path = build/Debug/AL.framework; sourceTree = "<group>"; };
+		326C4D6727BF5058003D8296 /* DF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DF.framework; path = build/Debug/DF.framework; sourceTree = "<group>"; };
+		326C4D6827BF5058003D8296 /* CU.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CU.framework; path = build/Debug/CU.framework; sourceTree = "<group>"; };
+		326C4D6927BF5058003D8296 /* BJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJ.framework; path = build/Debug/BJ.framework; sourceTree = "<group>"; };
+		326C4D6A27BF5058003D8296 /* CZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CZ.framework; path = build/Debug/CZ.framework; sourceTree = "<group>"; };
+		326C4D6B27BF5058003D8296 /* DC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DC.framework; path = build/Debug/DC.framework; sourceTree = "<group>"; };
+		326C4D6C27BF5058003D8296 /* BS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BS.framework; path = build/Debug/BS.framework; sourceTree = "<group>"; };
+		326C4D6D27BF5058003D8296 /* CH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CH.framework; path = build/Debug/CH.framework; sourceTree = "<group>"; };
+		326C4D6E27BF5058003D8296 /* BX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BX.framework; path = build/Debug/BX.framework; sourceTree = "<group>"; };
+		326C4D6F27BF5058003D8296 /* AO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AO.framework; path = build/Debug/AO.framework; sourceTree = "<group>"; };
+		326C4D7027BF5058003D8296 /* DV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DV.framework; path = build/Debug/DV.framework; sourceTree = "<group>"; };
+		326C4D7127BF5058003D8296 /* AA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AA.framework; path = build/Debug/AA.framework; sourceTree = "<group>"; };
+		326C4D7227BF5058003D8296 /* DH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DH.framework; path = build/Debug/DH.framework; sourceTree = "<group>"; };
+		326C4D7327BF5058003D8296 /* CK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CK.framework; path = build/Debug/CK.framework; sourceTree = "<group>"; };
+		326C4D7427BF5058003D8296 /* BC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BC.framework; path = build/Debug/BC.framework; sourceTree = "<group>"; };
+		326C4D7527BF5058003D8296 /* BR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BR.framework; path = build/Debug/BR.framework; sourceTree = "<group>"; };
+		326C4D7627BF5058003D8296 /* DN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DN.framework; path = build/Debug/DN.framework; sourceTree = "<group>"; };
+		326C4D7727BF5058003D8296 /* DD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DD.framework; path = build/Debug/DD.framework; sourceTree = "<group>"; };
+		326C4D7827BF5058003D8296 /* CT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CT.framework; path = build/Debug/CT.framework; sourceTree = "<group>"; };
+		326C4D7927BF5058003D8296 /* CD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CD.framework; path = build/Debug/CD.framework; sourceTree = "<group>"; };
+		326C4D7A27BF5058003D8296 /* CA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CA.framework; path = build/Debug/CA.framework; sourceTree = "<group>"; };
+		326C4D7B27BF5058003D8296 /* BZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BZ.framework; path = build/Debug/BZ.framework; sourceTree = "<group>"; };
+		326C4D7C27BF5058003D8296 /* AJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AJ.framework; path = build/Debug/AJ.framework; sourceTree = "<group>"; };
+		326C4D7D27BF5058003D8296 /* DG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DG.framework; path = build/Debug/DG.framework; sourceTree = "<group>"; };
+		326C4D7E27BF5058003D8296 /* AV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AV.framework; path = build/Debug/AV.framework; sourceTree = "<group>"; };
+		326C4D7F27BF5059003D8296 /* CN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CN.framework; path = build/Debug/CN.framework; sourceTree = "<group>"; };
+		326C4D8027BF5059003D8296 /* CS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CS.framework; path = build/Debug/CS.framework; sourceTree = "<group>"; };
+		326C4D8127BF5059003D8296 /* CI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CI.framework; path = build/Debug/CI.framework; sourceTree = "<group>"; };
+		326C4D8227BF5059003D8296 /* DA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DA.framework; path = build/Debug/DA.framework; sourceTree = "<group>"; };
+		326C4D8327BF5059003D8296 /* AP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AP.framework; path = build/Debug/AP.framework; sourceTree = "<group>"; };
+		326C4D8427BF5059003D8296 /* DP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DP.framework; path = build/Debug/DP.framework; sourceTree = "<group>"; };
+		326C4D8527BF5059003D8296 /* CV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CV.framework; path = build/Debug/CV.framework; sourceTree = "<group>"; };
+		326C4D8627BF5059003D8296 /* AR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AR.framework; path = build/Debug/AR.framework; sourceTree = "<group>"; };
+		326C4D8727BF5059003D8296 /* AT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AT.framework; path = build/Debug/AT.framework; sourceTree = "<group>"; };
+		326C4D8827BF5059003D8296 /* AK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AK.framework; path = build/Debug/AK.framework; sourceTree = "<group>"; };
+		326C4D8927BF5059003D8296 /* DS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DS.framework; path = build/Debug/DS.framework; sourceTree = "<group>"; };
+		326C4D8A27BF5059003D8296 /* DK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DK.framework; path = build/Debug/DK.framework; sourceTree = "<group>"; };
+		326C4D8B27BF5059003D8296 /* BY.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BY.framework; path = build/Debug/BY.framework; sourceTree = "<group>"; };
+		326C4D8C27BF5059003D8296 /* BI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BI.framework; path = build/Debug/BI.framework; sourceTree = "<group>"; };
+		326C4D8D27BF5059003D8296 /* AZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AZ.framework; path = build/Debug/AZ.framework; sourceTree = "<group>"; };
+		326C4D8E27BF5059003D8296 /* AN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AN.framework; path = build/Debug/AN.framework; sourceTree = "<group>"; };
+		326C4D8F27BF5059003D8296 /* CY.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CY.framework; path = build/Debug/CY.framework; sourceTree = "<group>"; };
+		326C4D9027BF5059003D8296 /* DR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DR.framework; path = build/Debug/DR.framework; sourceTree = "<group>"; };
+		326C4D9127BF5059003D8296 /* DQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DQ.framework; path = build/Debug/DQ.framework; sourceTree = "<group>"; };
+		326C4D9227BF5059003D8296 /* AS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AS.framework; path = build/Debug/AS.framework; sourceTree = "<group>"; };
+		326C4D9327BF5059003D8296 /* DO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DO.framework; path = build/Debug/DO.framework; sourceTree = "<group>"; };
+		326C4D9427BF5059003D8296 /* BQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BQ.framework; path = build/Debug/BQ.framework; sourceTree = "<group>"; };
+		326C4D9527BF5059003D8296 /* AE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AE.framework; path = build/Debug/AE.framework; sourceTree = "<group>"; };
+		326C4D9627BF5059003D8296 /* BD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BD.framework; path = build/Debug/BD.framework; sourceTree = "<group>"; };
+		326C4D9727BF5059003D8296 /* BT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BT.framework; path = build/Debug/BT.framework; sourceTree = "<group>"; };
+		326C4D9827BF5059003D8296 /* DE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DE.framework; path = build/Debug/DE.framework; sourceTree = "<group>"; };
+		326C4E6627BF7107003D8296 /* slowDebugTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowDebugTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326C4E6827BF7107003D8296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326C4E6A27BF7107003D8296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326C4E6C27BF710A003D8296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326C4E6F27BF710A003D8296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326C4E7127BF710A003D8296 /* slowDebugTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = slowDebugTestMac.entitlements; sourceTree = "<group>"; };
+		32C734D327CE450E006DA0DA /* slowDebugTestMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slowDebugTestMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		32C734D427CE450E006DA0DA /* OCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPerson.h; sourceTree = "<group>"; };
+		32C734D527CE450E006DA0DA /* OCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPerson.m; sourceTree = "<group>"; };
+		32FF886927C387930080AADF /* AFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFStub.framework; path = "build/Debug-iphonesimulator/AFStub.framework"; sourceTree = "<group>"; };
+		32FF886A27C387930080AADF /* COStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = COStub.framework; path = "build/Debug-iphonesimulator/COStub.framework"; sourceTree = "<group>"; };
+		32FF886B27C387930080AADF /* DLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLStub.framework; path = "build/Debug-iphonesimulator/DLStub.framework"; sourceTree = "<group>"; };
+		32FF886C27C387930080AADF /* ALStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALStub.framework; path = "build/Debug-iphonesimulator/ALStub.framework"; sourceTree = "<group>"; };
+		32FF886D27C387930080AADF /* CJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CJStub.framework; path = "build/Debug-iphonesimulator/CJStub.framework"; sourceTree = "<group>"; };
+		32FF886E27C387930080AADF /* BEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BEStub.framework; path = "build/Debug-iphonesimulator/BEStub.framework"; sourceTree = "<group>"; };
+		32FF886F27C387930080AADF /* BSStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BSStub.framework; path = "build/Debug-iphonesimulator/BSStub.framework"; sourceTree = "<group>"; };
+		32FF887027C387930080AADF /* DNStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DNStub.framework; path = "build/Debug-iphonesimulator/DNStub.framework"; sourceTree = "<group>"; };
+		32FF887127C387930080AADF /* DOStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DOStub.framework; path = "build/Debug-iphonesimulator/DOStub.framework"; sourceTree = "<group>"; };
+		32FF887227C387930080AADF /* ADStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADStub.framework; path = "build/Debug-iphonesimulator/ADStub.framework"; sourceTree = "<group>"; };
+		32FF887327C387930080AADF /* CRStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CRStub.framework; path = "build/Debug-iphonesimulator/CRStub.framework"; sourceTree = "<group>"; };
+		32FF887427C387930080AADF /* BKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BKStub.framework; path = "build/Debug-iphonesimulator/BKStub.framework"; sourceTree = "<group>"; };
+		32FF887527C387930080AADF /* BCStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BCStub.framework; path = "build/Debug-iphonesimulator/BCStub.framework"; sourceTree = "<group>"; };
+		32FF887627C387930080AADF /* CHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHStub.framework; path = "build/Debug-iphonesimulator/CHStub.framework"; sourceTree = "<group>"; };
+		32FF887727C387930080AADF /* ARStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARStub.framework; path = "build/Debug-iphonesimulator/ARStub.framework"; sourceTree = "<group>"; };
+		32FF887827C387930080AADF /* AOStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOStub.framework; path = "build/Debug-iphonesimulator/AOStub.framework"; sourceTree = "<group>"; };
+		32FF887927C387930080AADF /* BFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BFStub.framework; path = "build/Debug-iphonesimulator/BFStub.framework"; sourceTree = "<group>"; };
+		32FF887A27C387930080AADF /* DIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DIStub.framework; path = "build/Debug-iphonesimulator/DIStub.framework"; sourceTree = "<group>"; };
+		32FF887B27C387930080AADF /* BGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGStub.framework; path = "build/Debug-iphonesimulator/BGStub.framework"; sourceTree = "<group>"; };
+		32FF887C27C387930080AADF /* CDStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CDStub.framework; path = "build/Debug-iphonesimulator/CDStub.framework"; sourceTree = "<group>"; };
+		32FF887D27C387930080AADF /* ABStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ABStub.framework; path = "build/Debug-iphonesimulator/ABStub.framework"; sourceTree = "<group>"; };
+		32FF887E27C387930080AADF /* CVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CVStub.framework; path = "build/Debug-iphonesimulator/CVStub.framework"; sourceTree = "<group>"; };
+		32FF887F27C387930080AADF /* BIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BIStub.framework; path = "build/Debug-iphonesimulator/BIStub.framework"; sourceTree = "<group>"; };
+		32FF888027C387930080AADF /* CYStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYStub.framework; path = "build/Debug-iphonesimulator/CYStub.framework"; sourceTree = "<group>"; };
+		32FF888127C387930080AADF /* AZStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AZStub.framework; path = "build/Debug-iphonesimulator/AZStub.framework"; sourceTree = "<group>"; };
+		32FF888227C387940080AADF /* CSStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSStub.framework; path = "build/Debug-iphonesimulator/CSStub.framework"; sourceTree = "<group>"; };
+		32FF888327C387940080AADF /* DTStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTStub.framework; path = "build/Debug-iphonesimulator/DTStub.framework"; sourceTree = "<group>"; };
+		32FF888427C387940080AADF /* DVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVStub.framework; path = "build/Debug-iphonesimulator/DVStub.framework"; sourceTree = "<group>"; };
+		32FF888527C387940080AADF /* DMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMStub.framework; path = "build/Debug-iphonesimulator/DMStub.framework"; sourceTree = "<group>"; };
+		32FF888627C387940080AADF /* BNStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BNStub.framework; path = "build/Debug-iphonesimulator/BNStub.framework"; sourceTree = "<group>"; };
+		32FF888727C387940080AADF /* BDStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDStub.framework; path = "build/Debug-iphonesimulator/BDStub.framework"; sourceTree = "<group>"; };
+		32FF888827C387940080AADF /* BUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BUStub.framework; path = "build/Debug-iphonesimulator/BUStub.framework"; sourceTree = "<group>"; };
+		32FF888927C387940080AADF /* DQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DQStub.framework; path = "build/Debug-iphonesimulator/DQStub.framework"; sourceTree = "<group>"; };
+		32FF888A27C387940080AADF /* CEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CEStub.framework; path = "build/Debug-iphonesimulator/CEStub.framework"; sourceTree = "<group>"; };
+		32FF888B27C387940080AADF /* CTStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CTStub.framework; path = "build/Debug-iphonesimulator/CTStub.framework"; sourceTree = "<group>"; };
+		32FF888C27C387940080AADF /* DEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DEStub.framework; path = "build/Debug-iphonesimulator/DEStub.framework"; sourceTree = "<group>"; };
+		32FF888D27C387940080AADF /* CAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CAStub.framework; path = "build/Debug-iphonesimulator/CAStub.framework"; sourceTree = "<group>"; };
+		32FF888E27C387940080AADF /* AWStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWStub.framework; path = "build/Debug-iphonesimulator/AWStub.framework"; sourceTree = "<group>"; };
+		32FF888F27C387940080AADF /* CUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CUStub.framework; path = "build/Debug-iphonesimulator/CUStub.framework"; sourceTree = "<group>"; };
+		32FF889027C387940080AADF /* CCStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCStub.framework; path = "build/Debug-iphonesimulator/CCStub.framework"; sourceTree = "<group>"; };
+		32FF889127C387940080AADF /* AVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVStub.framework; path = "build/Debug-iphonesimulator/AVStub.framework"; sourceTree = "<group>"; };
+		32FF889227C387940080AADF /* BBStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BBStub.framework; path = "build/Debug-iphonesimulator/BBStub.framework"; sourceTree = "<group>"; };
+		32FF889327C387940080AADF /* DAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAStub.framework; path = "build/Debug-iphonesimulator/DAStub.framework"; sourceTree = "<group>"; };
+		32FF889427C387940080AADF /* ASStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASStub.framework; path = "build/Debug-iphonesimulator/ASStub.framework"; sourceTree = "<group>"; };
+		32FF889527C387940080AADF /* DPStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DPStub.framework; path = "build/Debug-iphonesimulator/DPStub.framework"; sourceTree = "<group>"; };
+		32FF889627C387940080AADF /* AYStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AYStub.framework; path = "build/Debug-iphonesimulator/AYStub.framework"; sourceTree = "<group>"; };
+		32FF889727C387940080AADF /* BYStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BYStub.framework; path = "build/Debug-iphonesimulator/BYStub.framework"; sourceTree = "<group>"; };
+		32FF889827C387940080AADF /* AXStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AXStub.framework; path = "build/Debug-iphonesimulator/AXStub.framework"; sourceTree = "<group>"; };
+		32FF889927C387940080AADF /* CWStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CWStub.framework; path = "build/Debug-iphonesimulator/CWStub.framework"; sourceTree = "<group>"; };
+		32FF889A27C387950080AADF /* BMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMStub.framework; path = "build/Debug-iphonesimulator/BMStub.framework"; sourceTree = "<group>"; };
+		32FF889B27C387950080AADF /* CNStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNStub.framework; path = "build/Debug-iphonesimulator/CNStub.framework"; sourceTree = "<group>"; };
+		32FF889C27C387950080AADF /* CIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CIStub.framework; path = "build/Debug-iphonesimulator/CIStub.framework"; sourceTree = "<group>"; };
+		32FF889D27C387950080AADF /* BZStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BZStub.framework; path = "build/Debug-iphonesimulator/BZStub.framework"; sourceTree = "<group>"; };
+		32FF889E27C387950080AADF /* BLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BLStub.framework; path = "build/Debug-iphonesimulator/BLStub.framework"; sourceTree = "<group>"; };
+		32FF889F27C387950080AADF /* BQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BQStub.framework; path = "build/Debug-iphonesimulator/BQStub.framework"; sourceTree = "<group>"; };
+		32FF88A027C387950080AADF /* CXStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CXStub.framework; path = "build/Debug-iphonesimulator/CXStub.framework"; sourceTree = "<group>"; };
+		32FF88A127C387950080AADF /* AHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AHStub.framework; path = "build/Debug-iphonesimulator/AHStub.framework"; sourceTree = "<group>"; };
+		32FF88A227C387950080AADF /* BWStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWStub.framework; path = "build/Debug-iphonesimulator/BWStub.framework"; sourceTree = "<group>"; };
+		32FF88A327C387950080AADF /* DJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJStub.framework; path = "build/Debug-iphonesimulator/DJStub.framework"; sourceTree = "<group>"; };
+		32FF88A427C387950080AADF /* DGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DGStub.framework; path = "build/Debug-iphonesimulator/DGStub.framework"; sourceTree = "<group>"; };
+		32FF88A527C387950080AADF /* ACStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ACStub.framework; path = "build/Debug-iphonesimulator/ACStub.framework"; sourceTree = "<group>"; };
+		32FF88A627C387950080AADF /* APStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APStub.framework; path = "build/Debug-iphonesimulator/APStub.framework"; sourceTree = "<group>"; };
+		32FF88A727C387950080AADF /* AEStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEStub.framework; path = "build/Debug-iphonesimulator/AEStub.framework"; sourceTree = "<group>"; };
+		32FF88A827C387950080AADF /* DDStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DDStub.framework; path = "build/Debug-iphonesimulator/DDStub.framework"; sourceTree = "<group>"; };
+		32FF88A927C387950080AADF /* AIStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIStub.framework; path = "build/Debug-iphonesimulator/AIStub.framework"; sourceTree = "<group>"; };
+		32FF88AA27C387950080AADF /* BRStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRStub.framework; path = "build/Debug-iphonesimulator/BRStub.framework"; sourceTree = "<group>"; };
+		32FF88AB27C387950080AADF /* BOStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BOStub.framework; path = "build/Debug-iphonesimulator/BOStub.framework"; sourceTree = "<group>"; };
+		32FF88AC27C387950080AADF /* BHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BHStub.framework; path = "build/Debug-iphonesimulator/BHStub.framework"; sourceTree = "<group>"; };
+		32FF88AD27C387950080AADF /* BJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJStub.framework; path = "build/Debug-iphonesimulator/BJStub.framework"; sourceTree = "<group>"; };
+		32FF88AE27C387950080AADF /* AUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AUStub.framework; path = "build/Debug-iphonesimulator/AUStub.framework"; sourceTree = "<group>"; };
+		32FF88AF27C387950080AADF /* AAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AAStub.framework; path = "build/Debug-iphonesimulator/AAStub.framework"; sourceTree = "<group>"; };
+		32FF88B027C387950080AADF /* DHStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DHStub.framework; path = "build/Debug-iphonesimulator/DHStub.framework"; sourceTree = "<group>"; };
+		32FF88B127C387950080AADF /* AMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMStub.framework; path = "build/Debug-iphonesimulator/AMStub.framework"; sourceTree = "<group>"; };
+		32FF88B227C387960080AADF /* CLStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CLStub.framework; path = "build/Debug-iphonesimulator/CLStub.framework"; sourceTree = "<group>"; };
+		32FF88B327C387960080AADF /* DUStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DUStub.framework; path = "build/Debug-iphonesimulator/DUStub.framework"; sourceTree = "<group>"; };
+		32FF88B427C387960080AADF /* BXStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BXStub.framework; path = "build/Debug-iphonesimulator/BXStub.framework"; sourceTree = "<group>"; };
+		32FF88B527C387960080AADF /* DFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFStub.framework; path = "build/Debug-iphonesimulator/DFStub.framework"; sourceTree = "<group>"; };
+		32FF88B627C387960080AADF /* CZStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CZStub.framework; path = "build/Debug-iphonesimulator/CZStub.framework"; sourceTree = "<group>"; };
+		32FF88B727C387960080AADF /* CBStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBStub.framework; path = "build/Debug-iphonesimulator/CBStub.framework"; sourceTree = "<group>"; };
+		32FF88B827C387960080AADF /* DRStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DRStub.framework; path = "build/Debug-iphonesimulator/DRStub.framework"; sourceTree = "<group>"; };
+		32FF88B927C387960080AADF /* BTStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BTStub.framework; path = "build/Debug-iphonesimulator/BTStub.framework"; sourceTree = "<group>"; };
+		32FF88BA27C387960080AADF /* BPStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BPStub.framework; path = "build/Debug-iphonesimulator/BPStub.framework"; sourceTree = "<group>"; };
+		32FF88BB27C387960080AADF /* DKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKStub.framework; path = "build/Debug-iphonesimulator/DKStub.framework"; sourceTree = "<group>"; };
+		32FF88BC27C387960080AADF /* CFStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFStub.framework; path = "build/Debug-iphonesimulator/CFStub.framework"; sourceTree = "<group>"; };
+		32FF88BD27C387960080AADF /* DBStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DBStub.framework; path = "build/Debug-iphonesimulator/DBStub.framework"; sourceTree = "<group>"; };
+		32FF88BE27C387960080AADF /* BVStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BVStub.framework; path = "build/Debug-iphonesimulator/BVStub.framework"; sourceTree = "<group>"; };
+		32FF88BF27C387960080AADF /* AGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGStub.framework; path = "build/Debug-iphonesimulator/AGStub.framework"; sourceTree = "<group>"; };
+		32FF88C027C387960080AADF /* ATStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATStub.framework; path = "build/Debug-iphonesimulator/ATStub.framework"; sourceTree = "<group>"; };
+		32FF88C127C387960080AADF /* AKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AKStub.framework; path = "build/Debug-iphonesimulator/AKStub.framework"; sourceTree = "<group>"; };
+		32FF88C227C387960080AADF /* CPStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPStub.framework; path = "build/Debug-iphonesimulator/CPStub.framework"; sourceTree = "<group>"; };
+		32FF88C327C387960080AADF /* CMStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CMStub.framework; path = "build/Debug-iphonesimulator/CMStub.framework"; sourceTree = "<group>"; };
+		32FF88C427C387960080AADF /* CKStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CKStub.framework; path = "build/Debug-iphonesimulator/CKStub.framework"; sourceTree = "<group>"; };
+		32FF88C527C387970080AADF /* BAStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BAStub.framework; path = "build/Debug-iphonesimulator/BAStub.framework"; sourceTree = "<group>"; };
+		32FF88C627C387970080AADF /* AQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AQStub.framework; path = "build/Debug-iphonesimulator/AQStub.framework"; sourceTree = "<group>"; };
+		32FF88C727C387970080AADF /* AJStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AJStub.framework; path = "build/Debug-iphonesimulator/AJStub.framework"; sourceTree = "<group>"; };
+		32FF88C827C387970080AADF /* ANStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ANStub.framework; path = "build/Debug-iphonesimulator/ANStub.framework"; sourceTree = "<group>"; };
+		32FF88C927C387970080AADF /* CGStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CGStub.framework; path = "build/Debug-iphonesimulator/CGStub.framework"; sourceTree = "<group>"; };
+		32FF88CA27C387970080AADF /* CQStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CQStub.framework; path = "build/Debug-iphonesimulator/CQStub.framework"; sourceTree = "<group>"; };
+		32FF88CB27C387970080AADF /* DSStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DSStub.framework; path = "build/Debug-iphonesimulator/DSStub.framework"; sourceTree = "<group>"; };
+		32FF88CC27C387970080AADF /* DCStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCStub.framework; path = "build/Debug-iphonesimulator/DCStub.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B0567A627B63888003DE558 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B803B4B27B4FCF7004600B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320DEE4227BBA154003280BE /* AH.framework in Frameworks */,
-				320DEDB227BBA14E003280BE /* BG.framework in Frameworks */,
-				320DEDD427BBA14F003280BE /* BC.framework in Frameworks */,
-				320DEDE627BBA150003280BE /* BX.framework in Frameworks */,
-				320DEE5627BBA155003280BE /* AM.framework in Frameworks */,
-				320DEE6C27BBA157003280BE /* BY.framework in Frameworks */,
-				320DEDFC27BBA150003280BE /* BI.framework in Frameworks */,
-				320DEE0627BBA151003280BE /* BV.framework in Frameworks */,
-				320DEDC427BBA14F003280BE /* AP.framework in Frameworks */,
-				320DEE0A27BBA151003280BE /* DM.framework in Frameworks */,
-				320DEE5A27BBA155003280BE /* BJ.framework in Frameworks */,
-				320DEDEE27BBA150003280BE /* AT.framework in Frameworks */,
-				320DEDCA27BBA14F003280BE /* AL.framework in Frameworks */,
-				320DEE1E27BBA152003280BE /* CA.framework in Frameworks */,
-				320DEE1427BBA151003280BE /* CP.framework in Frameworks */,
-				320DEDD227BBA14F003280BE /* BD.framework in Frameworks */,
-				320DEDF827BBA150003280BE /* DC.framework in Frameworks */,
-				320DEE6827BBA157003280BE /* BF.framework in Frameworks */,
-				320DEE4627BBA154003280BE /* BP.framework in Frameworks */,
-				320DEE4E27BBA155003280BE /* AE.framework in Frameworks */,
-				320DEE0227BBA151003280BE /* CO.framework in Frameworks */,
-				320DEE6627BBA156003280BE /* DP.framework in Frameworks */,
-				320DEDEA27BBA150003280BE /* AY.framework in Frameworks */,
-				320DEDD827BBA14F003280BE /* BS.framework in Frameworks */,
-				320DEDC627BBA14F003280BE /* CM.framework in Frameworks */,
-				320DEE1627BBA151003280BE /* CI.framework in Frameworks */,
-				320DEE4027BBA154003280BE /* DJ.framework in Frameworks */,
-				320DEE0427BBA151003280BE /* AD.framework in Frameworks */,
-				320DEDCE27BBA14F003280BE /* DF.framework in Frameworks */,
-				320DEE2627BBA152003280BE /* AZ.framework in Frameworks */,
-				320DEDE427BBA14F003280BE /* CG.framework in Frameworks */,
-				320DEDAE27BBA14E003280BE /* CK.framework in Frameworks */,
-				320DEDF227BBA150003280BE /* CB.framework in Frameworks */,
-				320DEE2C27BBA153003280BE /* DR.framework in Frameworks */,
-				320DEE3027BBA153003280BE /* CJ.framework in Frameworks */,
-				320DEDFA27BBA150003280BE /* BT.framework in Frameworks */,
-				320DEE4C27BBA155003280BE /* DV.framework in Frameworks */,
-				320DEE4827BBA154003280BE /* AU.framework in Frameworks */,
-				320DEE4427BBA154003280BE /* CH.framework in Frameworks */,
-				320DEDFE27BBA150003280BE /* AQ.framework in Frameworks */,
-				320DEE3C27BBA153003280BE /* AG.framework in Frameworks */,
-				320DEE3E27BBA154003280BE /* DE.framework in Frameworks */,
-				320DEE5027BBA155003280BE /* AX.framework in Frameworks */,
-				320DEE5227BBA155003280BE /* DO.framework in Frameworks */,
-				320DEE5427BBA155003280BE /* BM.framework in Frameworks */,
-				320DEDAC27BBA14E003280BE /* DD.framework in Frameworks */,
-				320DEE6427BBA156003280BE /* CF.framework in Frameworks */,
-				320DEE3227BBA153003280BE /* DA.framework in Frameworks */,
-				320DEE3627BBA153003280BE /* AO.framework in Frameworks */,
-				320DEE5827BBA155003280BE /* DH.framework in Frameworks */,
-				320DEE2827BBA152003280BE /* AR.framework in Frameworks */,
-				320DEDDE27BBA14F003280BE /* AS.framework in Frameworks */,
-				320DEE0C27BBA151003280BE /* DL.framework in Frameworks */,
-				320DEE0827BBA151003280BE /* CL.framework in Frameworks */,
-				320DEE0027BBA150003280BE /* AW.framework in Frameworks */,
-				320DEE6A27BBA157003280BE /* DG.framework in Frameworks */,
-				320DEE2A27BBA152003280BE /* BL.framework in Frameworks */,
-				320DEDC027BBA14F003280BE /* CT.framework in Frameworks */,
-				320DEE2E27BBA153003280BE /* DS.framework in Frameworks */,
-				320DEDCC27BBA14F003280BE /* CN.framework in Frameworks */,
-				320DEE3427BBA153003280BE /* BQ.framework in Frameworks */,
-				320DEE1027BBA151003280BE /* CR.framework in Frameworks */,
-				320DEDF627BBA150003280BE /* CU.framework in Frameworks */,
-				320DEDE827BBA150003280BE /* AF.framework in Frameworks */,
-				320DEDEC27BBA150003280BE /* BU.framework in Frameworks */,
-				320DEE6E27BBA157003280BE /* DT.framework in Frameworks */,
 				2BCCBAC827BA5CD100C723C8 /* SnapKit.framework in Frameworks */,
-				320DEDDA27BBA14F003280BE /* CC.framework in Frameworks */,
-				320DEE1227BBA151003280BE /* CS.framework in Frameworks */,
-				320DEDBE27BBA14F003280BE /* AK.framework in Frameworks */,
-				320DEDBA27BBA14F003280BE /* DU.framework in Frameworks */,
-				320DEE2427BBA152003280BE /* CV.framework in Frameworks */,
-				320DEE5C27BBA156003280BE /* BH.framework in Frameworks */,
-				320DEDB827BBA14E003280BE /* CY.framework in Frameworks */,
-				320DEE2227BBA152003280BE /* AA.framework in Frameworks */,
-				320DEE0E27BBA151003280BE /* AN.framework in Frameworks */,
-				320DEE1C27BBA152003280BE /* BB.framework in Frameworks */,
-				320DEE6027BBA156003280BE /* BA.framework in Frameworks */,
-				320DEDBC27BBA14F003280BE /* BZ.framework in Frameworks */,
-				320DEE5E27BBA156003280BE /* CX.framework in Frameworks */,
-				320DEE2027BBA152003280BE /* DI.framework in Frameworks */,
-				320DEDB027BBA14E003280BE /* AV.framework in Frameworks */,
-				320DEDC227BBA14F003280BE /* BW.framework in Frameworks */,
-				320DEDE227BBA14F003280BE /* BK.framework in Frameworks */,
-				320DEE7027BBA157003280BE /* BN.framework in Frameworks */,
-				320DEDD627BBA14F003280BE /* BR.framework in Frameworks */,
-				320DEDF427BBA150003280BE /* DN.framework in Frameworks */,
-				320DEDF027BBA150003280BE /* BO.framework in Frameworks */,
-				320DEDD027BBA14F003280BE /* AC.framework in Frameworks */,
-				320DEE6227BBA156003280BE /* CE.framework in Frameworks */,
-				320DEE7227BBA157003280BE /* AJ.framework in Frameworks */,
-				320DEDB627BBA14E003280BE /* CW.framework in Frameworks */,
-				320DEE1A27BBA152003280BE /* CZ.framework in Frameworks */,
-				320DEDE027BBA14F003280BE /* CQ.framework in Frameworks */,
-				320DEE3A27BBA153003280BE /* CD.framework in Frameworks */,
-				320DEDC827BBA14F003280BE /* DB.framework in Frameworks */,
-				320DEE1827BBA151003280BE /* DQ.framework in Frameworks */,
-				320DEDDC27BBA14F003280BE /* AI.framework in Frameworks */,
-				320DEDB427BBA14E003280BE /* BE.framework in Frameworks */,
-				320DEE3827BBA153003280BE /* DK.framework in Frameworks */,
-				320DEE4A27BBA154003280BE /* AB.framework in Frameworks */,
+				32FF88CD27C387A60080AADF /* AAStub.framework in Frameworks */,
+				32FF88CE27C387A60080AADF /* ABStub.framework in Frameworks */,
+				32FF88CF27C387A60080AADF /* ACStub.framework in Frameworks */,
+				32FF88D027C387A60080AADF /* ADStub.framework in Frameworks */,
+				32FF88D127C387A60080AADF /* AEStub.framework in Frameworks */,
+				32FF88D227C387A60080AADF /* AFStub.framework in Frameworks */,
+				32FF88D327C387A60080AADF /* AGStub.framework in Frameworks */,
+				32FF88D427C387A60080AADF /* AHStub.framework in Frameworks */,
+				32FF88D527C387A60080AADF /* AIStub.framework in Frameworks */,
+				32FF88D627C387A60080AADF /* AJStub.framework in Frameworks */,
+				32FF88D727C387A60080AADF /* AKStub.framework in Frameworks */,
+				32FF88D827C387A60080AADF /* ALStub.framework in Frameworks */,
+				32FF88D927C387A60080AADF /* AMStub.framework in Frameworks */,
+				32FF88DA27C387A60080AADF /* ANStub.framework in Frameworks */,
+				32FF88DB27C387A60080AADF /* AOStub.framework in Frameworks */,
+				32FF88DC27C387A60080AADF /* APStub.framework in Frameworks */,
+				32FF88DD27C387A60080AADF /* AQStub.framework in Frameworks */,
+				32FF88DE27C387A60080AADF /* ARStub.framework in Frameworks */,
+				32FF88DF27C387A60080AADF /* ASStub.framework in Frameworks */,
+				32FF88E027C387A60080AADF /* ATStub.framework in Frameworks */,
+				32FF88E127C387A60080AADF /* AUStub.framework in Frameworks */,
+				32FF88E227C387A60080AADF /* AVStub.framework in Frameworks */,
+				32FF88E327C387A60080AADF /* AWStub.framework in Frameworks */,
+				32FF88E427C387A60080AADF /* AXStub.framework in Frameworks */,
+				32FF88E527C387A60080AADF /* AYStub.framework in Frameworks */,
+				32FF88E627C387A60080AADF /* AZStub.framework in Frameworks */,
+				32FF88E727C387A60080AADF /* BAStub.framework in Frameworks */,
+				32FF88E827C387A60080AADF /* BBStub.framework in Frameworks */,
+				32FF88E927C387A60080AADF /* BCStub.framework in Frameworks */,
+				32FF88EA27C387A60080AADF /* BDStub.framework in Frameworks */,
+				32FF88EB27C387A60080AADF /* BEStub.framework in Frameworks */,
+				32FF88EC27C387A60080AADF /* BFStub.framework in Frameworks */,
+				32FF88ED27C387A60080AADF /* BGStub.framework in Frameworks */,
+				32FF88EE27C387A60080AADF /* BHStub.framework in Frameworks */,
+				32FF88EF27C387A60080AADF /* BIStub.framework in Frameworks */,
+				32FF88F027C387A60080AADF /* BJStub.framework in Frameworks */,
+				32FF88F127C387A60080AADF /* BKStub.framework in Frameworks */,
+				32FF88F227C387A60080AADF /* BLStub.framework in Frameworks */,
+				32FF88F327C387A60080AADF /* BMStub.framework in Frameworks */,
+				32FF88F427C387A60080AADF /* BNStub.framework in Frameworks */,
+				32FF88F527C387A60080AADF /* BOStub.framework in Frameworks */,
+				32FF88F627C387A60080AADF /* BPStub.framework in Frameworks */,
+				32FF88F727C387A60080AADF /* BQStub.framework in Frameworks */,
+				32FF88F827C387A60080AADF /* BRStub.framework in Frameworks */,
+				32FF88F927C387A60080AADF /* BSStub.framework in Frameworks */,
+				32FF88FA27C387A60080AADF /* BTStub.framework in Frameworks */,
+				32FF88FB27C387A60080AADF /* BUStub.framework in Frameworks */,
+				32FF88FC27C387A60080AADF /* BVStub.framework in Frameworks */,
+				32FF88FD27C387A60080AADF /* BWStub.framework in Frameworks */,
+				32FF88FE27C387A60080AADF /* BXStub.framework in Frameworks */,
+				32FF88FF27C387A60080AADF /* BYStub.framework in Frameworks */,
+				32FF890027C387A60080AADF /* BZStub.framework in Frameworks */,
+				32FF890127C387A60080AADF /* CAStub.framework in Frameworks */,
+				32FF890227C387A60080AADF /* CBStub.framework in Frameworks */,
+				32FF890327C387A60080AADF /* CCStub.framework in Frameworks */,
+				32FF890427C387A60080AADF /* CDStub.framework in Frameworks */,
+				32FF890527C387A60080AADF /* CEStub.framework in Frameworks */,
+				32FF890627C387A60080AADF /* CFStub.framework in Frameworks */,
+				32FF890727C387A60080AADF /* CGStub.framework in Frameworks */,
+				32FF890827C387A60080AADF /* CHStub.framework in Frameworks */,
+				32FF890927C387A60080AADF /* CIStub.framework in Frameworks */,
+				32FF890A27C387A60080AADF /* CJStub.framework in Frameworks */,
+				32FF890B27C387A60080AADF /* CKStub.framework in Frameworks */,
+				32FF890C27C387A60080AADF /* CLStub.framework in Frameworks */,
+				32FF890D27C387A60080AADF /* CMStub.framework in Frameworks */,
+				32FF890E27C387A60080AADF /* CNStub.framework in Frameworks */,
+				32FF890F27C387A60080AADF /* COStub.framework in Frameworks */,
+				32FF891027C387A60080AADF /* CPStub.framework in Frameworks */,
+				32FF891127C387A60080AADF /* CQStub.framework in Frameworks */,
+				32FF891227C387A60080AADF /* CRStub.framework in Frameworks */,
+				32FF891327C387A60080AADF /* CSStub.framework in Frameworks */,
+				32FF891427C387A60080AADF /* CTStub.framework in Frameworks */,
+				32FF891527C387A60080AADF /* CUStub.framework in Frameworks */,
+				32FF891627C387A60080AADF /* CVStub.framework in Frameworks */,
+				32FF891727C387A60080AADF /* CWStub.framework in Frameworks */,
+				32FF891827C387A60080AADF /* CXStub.framework in Frameworks */,
+				32FF891927C387A60080AADF /* CYStub.framework in Frameworks */,
+				32FF891A27C387A60080AADF /* CZStub.framework in Frameworks */,
+				32FF891B27C387A60080AADF /* DAStub.framework in Frameworks */,
+				32FF891C27C387A60080AADF /* DBStub.framework in Frameworks */,
+				32FF891D27C387A60080AADF /* DCStub.framework in Frameworks */,
+				32FF891E27C387A60080AADF /* DDStub.framework in Frameworks */,
+				32FF891F27C387A60080AADF /* DEStub.framework in Frameworks */,
+				32FF892027C387A60080AADF /* DFStub.framework in Frameworks */,
+				32FF892127C387A60080AADF /* DGStub.framework in Frameworks */,
+				32FF892227C387A60080AADF /* DHStub.framework in Frameworks */,
+				32FF892327C387A60080AADF /* DIStub.framework in Frameworks */,
+				32FF892427C387A60080AADF /* DJStub.framework in Frameworks */,
+				32FF892527C387A60080AADF /* DKStub.framework in Frameworks */,
+				32FF892627C387A60080AADF /* DLStub.framework in Frameworks */,
+				32FF892727C387A60080AADF /* DMStub.framework in Frameworks */,
+				32FF892827C387A60080AADF /* DNStub.framework in Frameworks */,
+				32FF892927C387A60080AADF /* DOStub.framework in Frameworks */,
+				32FF892A27C387A60080AADF /* DPStub.framework in Frameworks */,
+				32FF892B27C387A60080AADF /* DQStub.framework in Frameworks */,
+				32FF892C27C387A60080AADF /* DRStub.framework in Frameworks */,
+				32FF892D27C387A60080AADF /* DSStub.framework in Frameworks */,
+				32FF892E27C387A60080AADF /* DTStub.framework in Frameworks */,
+				32FF892F27C387A60080AADF /* DUStub.framework in Frameworks */,
+				32FF893027C387A60080AADF /* DVStub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C4E6327BF7107003D8296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320E3C6627BF7C0800901624 /* AJStub.framework in Frameworks */,
+				320E3C6727BF7C0800901624 /* AZStub.framework in Frameworks */,
+				320E3C6827BF7C0800901624 /* BTStub.framework in Frameworks */,
+				320E3C6927BF7C0800901624 /* BSStub.framework in Frameworks */,
+				320E3C6A27BF7C0800901624 /* CVStub.framework in Frameworks */,
+				320E3C6B27BF7C0800901624 /* DPStub.framework in Frameworks */,
+				320E3C6C27BF7C0800901624 /* DFStub.framework in Frameworks */,
+				320E3C6D27BF7C0800901624 /* DRStub.framework in Frameworks */,
+				320E3C6E27BF7C0800901624 /* AFStub.framework in Frameworks */,
+				320E3C6F27BF7C0800901624 /* AAStub.framework in Frameworks */,
+				320E3C7027BF7C0800901624 /* BNStub.framework in Frameworks */,
+				320E3C7127BF7C0800901624 /* CHStub.framework in Frameworks */,
+				320E3C7227BF7C0800901624 /* APStub.framework in Frameworks */,
+				320E3C7327BF7C0800901624 /* ASStub.framework in Frameworks */,
+				320E3C7427BF7C0800901624 /* BBStub.framework in Frameworks */,
+				320E3C7527BF7C0800901624 /* DCStub.framework in Frameworks */,
+				320E3C7627BF7C0800901624 /* DGStub.framework in Frameworks */,
+				320E3C7727BF7C0800901624 /* BYStub.framework in Frameworks */,
+				320E3C7827BF7C0800901624 /* CJStub.framework in Frameworks */,
+				320E3C7927BF7C0800901624 /* CDStub.framework in Frameworks */,
+				320E3C7A27BF7C0800901624 /* CSStub.framework in Frameworks */,
+				320E3C7B27BF7C0800901624 /* DHStub.framework in Frameworks */,
+				320E3C7C27BF7C0800901624 /* AEStub.framework in Frameworks */,
+				320E3C7D27BF7C0800901624 /* BXStub.framework in Frameworks */,
+				320E3C7E27BF7C0800901624 /* CMStub.framework in Frameworks */,
+				320E3C7F27BF7C0800901624 /* AKStub.framework in Frameworks */,
+				320E3C8027BF7C0800901624 /* DOStub.framework in Frameworks */,
+				320E3C8127BF7C0800901624 /* CNStub.framework in Frameworks */,
+				320E3C8227BF7C0800901624 /* BMStub.framework in Frameworks */,
+				320E3C8327BF7C0800901624 /* BHStub.framework in Frameworks */,
+				320E3C8427BF7C0800901624 /* BUStub.framework in Frameworks */,
+				320E3C8527BF7C0800901624 /* DLStub.framework in Frameworks */,
+				320E3C8627BF7C0800901624 /* AGStub.framework in Frameworks */,
+				320E3C8727BF7C0800901624 /* BQStub.framework in Frameworks */,
+				320E3C8827BF7C0800901624 /* BPStub.framework in Frameworks */,
+				320E3C8927BF7C0800901624 /* BCStub.framework in Frameworks */,
+				320E3C8A27BF7C0800901624 /* DVStub.framework in Frameworks */,
+				320E3C8B27BF7C0800901624 /* AYStub.framework in Frameworks */,
+				320E3C8C27BF7C0800901624 /* BIStub.framework in Frameworks */,
+				320E3C8D27BF7C0800901624 /* CLStub.framework in Frameworks */,
+				320E3C8E27BF7C0800901624 /* DQStub.framework in Frameworks */,
+				320E3C8F27BF7C0800901624 /* BWStub.framework in Frameworks */,
+				320E3C9027BF7C0800901624 /* ARStub.framework in Frameworks */,
+				320E3C9127BF7C0800901624 /* DMStub.framework in Frameworks */,
+				320E3C9227BF7C0800901624 /* CQStub.framework in Frameworks */,
+				320E3C9327BF7C0800901624 /* CRStub.framework in Frameworks */,
+				320E3C9427BF7C0800901624 /* AMStub.framework in Frameworks */,
+				320E3C9527BF7C0800901624 /* COStub.framework in Frameworks */,
+				320E3C9627BF7C0800901624 /* DIStub.framework in Frameworks */,
+				320E3C9727BF7C0800901624 /* AQStub.framework in Frameworks */,
+				320E3C9827BF7C0800901624 /* AVStub.framework in Frameworks */,
+				320E3C9927BF7C0800901624 /* AUStub.framework in Frameworks */,
+				320E3C9A27BF7C0800901624 /* DDStub.framework in Frameworks */,
+				320E3C9B27BF7C0800901624 /* ANStub.framework in Frameworks */,
+				320E3C9C27BF7C0800901624 /* CUStub.framework in Frameworks */,
+				320E3C9D27BF7C0800901624 /* ACStub.framework in Frameworks */,
+				320E3C9E27BF7C0800901624 /* CEStub.framework in Frameworks */,
+				320E3C9F27BF7C0800901624 /* CPStub.framework in Frameworks */,
+				320E3CA027BF7C0800901624 /* BLStub.framework in Frameworks */,
+				320E3CA127BF7C0800901624 /* BVStub.framework in Frameworks */,
+				320E3CA227BF7C0800901624 /* CAStub.framework in Frameworks */,
+				320E3CA327BF7C0800901624 /* BZStub.framework in Frameworks */,
+				320E3CA427BF7C0800901624 /* BGStub.framework in Frameworks */,
+				320E3CA527BF7C0800901624 /* CFStub.framework in Frameworks */,
+				320E3CA627BF7C0800901624 /* CCStub.framework in Frameworks */,
+				320E3CA727BF7C0800901624 /* BDStub.framework in Frameworks */,
+				320E3CA827BF7C0800901624 /* AHStub.framework in Frameworks */,
+				320E3CA927BF7C0800901624 /* DUStub.framework in Frameworks */,
+				320E3CAA27BF7C0800901624 /* ALStub.framework in Frameworks */,
+				320E3CAB27BF7C0800901624 /* AIStub.framework in Frameworks */,
+				320E3CAC27BF7C0800901624 /* DKStub.framework in Frameworks */,
+				320E3CAD27BF7C0800901624 /* AOStub.framework in Frameworks */,
+				320E3CAE27BF7C0800901624 /* BKStub.framework in Frameworks */,
+				320E3CAF27BF7C0800901624 /* DSStub.framework in Frameworks */,
+				320E3CB027BF7C0800901624 /* BOStub.framework in Frameworks */,
+				320E3CB127BF7C0800901624 /* CKStub.framework in Frameworks */,
+				320E3CB227BF7C0800901624 /* CIStub.framework in Frameworks */,
+				320E3CB327BF7C0800901624 /* DNStub.framework in Frameworks */,
+				320E3CB427BF7C0800901624 /* BAStub.framework in Frameworks */,
+				320E3CB527BF7C0800901624 /* CBStub.framework in Frameworks */,
+				320E3CB627BF7C0800901624 /* CWStub.framework in Frameworks */,
+				320E3CB727BF7C0800901624 /* ABStub.framework in Frameworks */,
+				320E3CB827BF7C0800901624 /* CZStub.framework in Frameworks */,
+				320E3CB927BF7C0800901624 /* AXStub.framework in Frameworks */,
+				320E3CBA27BF7C0800901624 /* CGStub.framework in Frameworks */,
+				320E3CBB27BF7C0800901624 /* DBStub.framework in Frameworks */,
+				320E3CBC27BF7C0800901624 /* DAStub.framework in Frameworks */,
+				320E3CBD27BF7C0800901624 /* CTStub.framework in Frameworks */,
+				320E3CBE27BF7C0900901624 /* DJStub.framework in Frameworks */,
+				320E3CBF27BF7C0900901624 /* AWStub.framework in Frameworks */,
+				320E3CC027BF7C0900901624 /* BEStub.framework in Frameworks */,
+				320E3CC127BF7C0900901624 /* BFStub.framework in Frameworks */,
+				320E3CC227BF7C0900901624 /* ATStub.framework in Frameworks */,
+				320E3CC327BF7C0900901624 /* DTStub.framework in Frameworks */,
+				320E3CC427BF7C0900901624 /* BJStub.framework in Frameworks */,
+				320E3CC527BF7C0900901624 /* ADStub.framework in Frameworks */,
+				320E3CC627BF7C0900901624 /* CXStub.framework in Frameworks */,
+				320E3CC727BF7C0900901624 /* CYStub.framework in Frameworks */,
+				320E3CC827BF7C0900901624 /* BRStub.framework in Frameworks */,
+				320E3CC927BF7C0900901624 /* DEStub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +868,7 @@
 			isa = PBXGroup;
 			children = (
 				2B803B5027B4FCF7004600B7 /* slowDebugTest */,
+				326C4E6727BF7107003D8296 /* slowDebugTestMac */,
 				2B803B4F27B4FCF7004600B7 /* Products */,
 				320DED4727BBA14C003280BE /* Frameworks */,
 			);
@@ -582,7 +878,7 @@
 			isa = PBXGroup;
 			children = (
 				2B803B4E27B4FCF7004600B7 /* slowDebugTest.app */,
-				2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */,
+				326C4E6627BF7107003D8296 /* slowDebugTestMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -606,6 +902,306 @@
 		320DED4727BBA14C003280BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				320E3C0B27BF7C0400901624 /* AAStub.framework */,
+				32FF88AF27C387950080AADF /* AAStub.framework */,
+				320E3C5327BF7C0700901624 /* ABStub.framework */,
+				320E3C3927BF7C0600901624 /* ACStub.framework */,
+				32FF887D27C387930080AADF /* ABStub.framework */,
+				32FF88A527C387950080AADF /* ACStub.framework */,
+				320E3C6127BF7C0800901624 /* ADStub.framework */,
+				320E3C1827BF7C0500901624 /* AEStub.framework */,
+				32FF887227C387930080AADF /* ADStub.framework */,
+				32FF88A727C387950080AADF /* AEStub.framework */,
+				320E3C0A27BF7C0400901624 /* AFStub.framework */,
+				320E3C2227BF7C0500901624 /* AGStub.framework */,
+				32FF88BF27C387960080AADF /* AGStub.framework */,
+				320E3C4427BF7C0700901624 /* AHStub.framework */,
+				320E3C4727BF7C0700901624 /* AIStub.framework */,
+				320E3C0227BF7C0400901624 /* AJStub.framework */,
+				32FF88C727C387970080AADF /* AJStub.framework */,
+				320E3C1B27BF7C0500901624 /* AKStub.framework */,
+				32FF88A127C387950080AADF /* AHStub.framework */,
+				32FF88A927C387950080AADF /* AIStub.framework */,
+				32FF88C127C387960080AADF /* AKStub.framework */,
+				320E3C4627BF7C0700901624 /* ALStub.framework */,
+				320E3C3027BF7C0600901624 /* AMStub.framework */,
+				320E3C3727BF7C0600901624 /* ANStub.framework */,
+				32FF88B127C387950080AADF /* AMStub.framework */,
+				32FF88C827C387970080AADF /* ANStub.framework */,
+				320E3C4927BF7C0700901624 /* AOStub.framework */,
+				320E3C0E27BF7C0400901624 /* APStub.framework */,
+				320E3C3327BF7C0600901624 /* AQStub.framework */,
+				32FF887827C387930080AADF /* AOStub.framework */,
+				32FF88A627C387950080AADF /* APStub.framework */,
+				32FF88C627C387970080AADF /* AQStub.framework */,
+				320E3C2C27BF7C0600901624 /* ARStub.framework */,
+				320E3C0F27BF7C0400901624 /* ASStub.framework */,
+				320E3C5E27BF7C0800901624 /* ATStub.framework */,
+				32FF88C027C387960080AADF /* ATStub.framework */,
+				320E3C3527BF7C0600901624 /* AUStub.framework */,
+				32FF889427C387940080AADF /* ASStub.framework */,
+				32FF88AE27C387950080AADF /* AUStub.framework */,
+				320E3C3427BF7C0600901624 /* AVStub.framework */,
+				32FF889127C387940080AADF /* AVStub.framework */,
+				320E3C5B27BF7C0800901624 /* AWStub.framework */,
+				320E3C5527BF7C0700901624 /* AXStub.framework */,
+				32FF889827C387940080AADF /* AXStub.framework */,
+				320E3C2727BF7C0500901624 /* AYStub.framework */,
+				32FF888E27C387940080AADF /* AWStub.framework */,
+				32FF889627C387940080AADF /* AYStub.framework */,
+				320E3C0327BF7C0400901624 /* AZStub.framework */,
+				320E3C5027BF7C0700901624 /* BAStub.framework */,
+				32FF88C527C387970080AADF /* BAStub.framework */,
+				320E3C1027BF7C0400901624 /* BBStub.framework */,
+				32FF887727C387930080AADF /* ARStub.framework */,
+				32FF888127C387930080AADF /* AZStub.framework */,
+				32FF889227C387940080AADF /* BBStub.framework */,
+				320E3C2527BF7C0500901624 /* BCStub.framework */,
+				320E3C4327BF7C0700901624 /* BDStub.framework */,
+				32FF887527C387930080AADF /* BCStub.framework */,
+				32FF888727C387940080AADF /* BDStub.framework */,
+				320E3C5C27BF7C0800901624 /* BEStub.framework */,
+				320E3C5D27BF7C0800901624 /* BFStub.framework */,
+				320E3C4027BF7C0700901624 /* BGStub.framework */,
+				320E3C1F27BF7C0500901624 /* BHStub.framework */,
+				32FF88AC27C387950080AADF /* BHStub.framework */,
+				320E3C2827BF7C0500901624 /* BIStub.framework */,
+				320E3C6027BF7C0800901624 /* BJStub.framework */,
+				32FF887927C387930080AADF /* BFStub.framework */,
+				32FF887B27C387930080AADF /* BGStub.framework */,
+				32FF887F27C387930080AADF /* BIStub.framework */,
+				32FF88AD27C387950080AADF /* BJStub.framework */,
+				320E3C4A27BF7C0700901624 /* BKStub.framework */,
+				320E3C3C27BF7C0600901624 /* BLStub.framework */,
+				32FF889E27C387950080AADF /* BLStub.framework */,
+				320E3C1E27BF7C0500901624 /* BMStub.framework */,
+				32FF889A27C387950080AADF /* BMStub.framework */,
+				320E3C0C27BF7C0400901624 /* BNStub.framework */,
+				320E3C4C27BF7C0700901624 /* BOStub.framework */,
+				320E3C2427BF7C0500901624 /* BPStub.framework */,
+				32FF88AB27C387950080AADF /* BOStub.framework */,
+				32FF88BA27C387960080AADF /* BPStub.framework */,
+				320E3C2327BF7C0500901624 /* BQStub.framework */,
+				320E3C6427BF7C0800901624 /* BRStub.framework */,
+				32FF887427C387930080AADF /* BKStub.framework */,
+				32FF888627C387940080AADF /* BNStub.framework */,
+				32FF889F27C387950080AADF /* BQStub.framework */,
+				32FF88AA27C387950080AADF /* BRStub.framework */,
+				320E3C0527BF7C0400901624 /* BSStub.framework */,
+				320E3C0427BF7C0400901624 /* BTStub.framework */,
+				32FF88B927C387960080AADF /* BTStub.framework */,
+				320E3C2027BF7C0500901624 /* BUStub.framework */,
+				320E3C3D27BF7C0600901624 /* BVStub.framework */,
+				32FF88BE27C387960080AADF /* BVStub.framework */,
+				320E3C2B27BF7C0600901624 /* BWStub.framework */,
+				320E3C1927BF7C0500901624 /* BXStub.framework */,
+				32FF88A227C387950080AADF /* BWStub.framework */,
+				32FF88B427C387960080AADF /* BXStub.framework */,
+				320E3C1327BF7C0500901624 /* BYStub.framework */,
+				320E3C3F27BF7C0600901624 /* BZStub.framework */,
+				32FF889727C387940080AADF /* BYStub.framework */,
+				32FF889D27C387950080AADF /* BZStub.framework */,
+				320E3C3E27BF7C0600901624 /* CAStub.framework */,
+				320E3C5127BF7C0700901624 /* CBStub.framework */,
+				32FF88B727C387960080AADF /* CBStub.framework */,
+				320E3C4227BF7C0700901624 /* CCStub.framework */,
+				32FF888827C387940080AADF /* BUStub.framework */,
+				32FF888D27C387940080AADF /* CAStub.framework */,
+				32FF889027C387940080AADF /* CCStub.framework */,
+				320E3C1527BF7C0500901624 /* CDStub.framework */,
+				320E3C3A27BF7C0600901624 /* CEStub.framework */,
+				320E3C4127BF7C0700901624 /* CFStub.framework */,
+				320E3C5627BF7C0700901624 /* CGStub.framework */,
+				32FF887C27C387930080AADF /* CDStub.framework */,
+				32FF888A27C387940080AADF /* CEStub.framework */,
+				32FF88BC27C387960080AADF /* CFStub.framework */,
+				32FF88C927C387970080AADF /* CGStub.framework */,
+				320E3C0D27BF7C0400901624 /* CHStub.framework */,
+				320E3C4E27BF7C0700901624 /* CIStub.framework */,
+				32FF886E27C387930080AADF /* BEStub.framework */,
+				32FF886F27C387930080AADF /* BSStub.framework */,
+				32FF887627C387930080AADF /* CHStub.framework */,
+				32FF889C27C387950080AADF /* CIStub.framework */,
+				320E3C1427BF7C0500901624 /* CJStub.framework */,
+				320E3C4D27BF7C0700901624 /* CKStub.framework */,
+				32FF88C427C387960080AADF /* CKStub.framework */,
+				320E3C2927BF7C0600901624 /* CLStub.framework */,
+				320E3C1A27BF7C0500901624 /* CMStub.framework */,
+				32FF88B227C387960080AADF /* CLStub.framework */,
+				32FF88C327C387960080AADF /* CMStub.framework */,
+				320E3C1D27BF7C0500901624 /* CNStub.framework */,
+				32FF886C27C387930080AADF /* ALStub.framework */,
+				32FF886D27C387930080AADF /* CJStub.framework */,
+				32FF889B27C387950080AADF /* CNStub.framework */,
+				320E3C3127BF7C0600901624 /* COStub.framework */,
+				320E3C3B27BF7C0600901624 /* CPStub.framework */,
+				320E3C2E27BF7C0600901624 /* CQStub.framework */,
+				32FF88C227C387960080AADF /* CPStub.framework */,
+				32FF88CA27C387970080AADF /* CQStub.framework */,
+				320E3C2F27BF7C0600901624 /* CRStub.framework */,
+				320E3C1627BF7C0500901624 /* CSStub.framework */,
+				320E3C5927BF7C0800901624 /* CTStub.framework */,
+				320E3C3827BF7C0600901624 /* CUStub.framework */,
+				32FF888227C387940080AADF /* CSStub.framework */,
+				32FF888B27C387940080AADF /* CTStub.framework */,
+				32FF888F27C387940080AADF /* CUStub.framework */,
+				320E3C0627BF7C0400901624 /* CVStub.framework */,
+				320E3C5227BF7C0700901624 /* CWStub.framework */,
+				320E3C6227BF7C0800901624 /* CXStub.framework */,
+				32FF889927C387940080AADF /* CWStub.framework */,
+				32FF88A027C387950080AADF /* CXStub.framework */,
+				320E3C6327BF7C0800901624 /* CYStub.framework */,
+				320E3C5427BF7C0700901624 /* CZStub.framework */,
+				32FF88B627C387960080AADF /* CZStub.framework */,
+				320E3C5827BF7C0800901624 /* DAStub.framework */,
+				320E3C5727BF7C0800901624 /* DBStub.framework */,
+				320E3C1127BF7C0400901624 /* DCStub.framework */,
+				32FF88BD27C387960080AADF /* DBStub.framework */,
+				32FF88CC27C387970080AADF /* DCStub.framework */,
+				320E3C3627BF7C0600901624 /* DDStub.framework */,
+				32FF889327C387940080AADF /* DAStub.framework */,
+				32FF88A827C387950080AADF /* DDStub.framework */,
+				320E3C6527BF7C0800901624 /* DEStub.framework */,
+				320E3C0827BF7C0400901624 /* DFStub.framework */,
+				32FF88B527C387960080AADF /* DFStub.framework */,
+				320E3C1227BF7C0400901624 /* DGStub.framework */,
+				320E3C1727BF7C0500901624 /* DHStub.framework */,
+				32FF887E27C387930080AADF /* CVStub.framework */,
+				32FF888027C387930080AADF /* CYStub.framework */,
+				32FF888C27C387940080AADF /* DEStub.framework */,
+				32FF88A427C387950080AADF /* DGStub.framework */,
+				32FF88B027C387950080AADF /* DHStub.framework */,
+				320E3C3227BF7C0600901624 /* DIStub.framework */,
+				320E3C5A27BF7C0800901624 /* DJStub.framework */,
+				320E3C4827BF7C0700901624 /* DKStub.framework */,
+				32FF887327C387930080AADF /* CRStub.framework */,
+				32FF887A27C387930080AADF /* DIStub.framework */,
+				32FF88A327C387950080AADF /* DJStub.framework */,
+				32FF88BB27C387960080AADF /* DKStub.framework */,
+				320E3C2127BF7C0500901624 /* DLStub.framework */,
+				320E3C2D27BF7C0600901624 /* DMStub.framework */,
+				32FF888527C387940080AADF /* DMStub.framework */,
+				320E3C4F27BF7C0700901624 /* DNStub.framework */,
+				320E3C1C27BF7C0500901624 /* DOStub.framework */,
+				320E3C0727BF7C0400901624 /* DPStub.framework */,
+				32FF889527C387940080AADF /* DPStub.framework */,
+				320E3C2A27BF7C0600901624 /* DQStub.framework */,
+				320E3C0927BF7C0400901624 /* DRStub.framework */,
+				320E3C4B27BF7C0700901624 /* DSStub.framework */,
+				32FF888927C387940080AADF /* DQStub.framework */,
+				32FF88B827C387960080AADF /* DRStub.framework */,
+				32FF88CB27C387970080AADF /* DSStub.framework */,
+				320E3C5F27BF7C0800901624 /* DTStub.framework */,
+				320E3C4527BF7C0700901624 /* DUStub.framework */,
+				32FF88B327C387960080AADF /* DUStub.framework */,
+				320E3C2627BF7C0500901624 /* DVStub.framework */,
+				32FF886927C387930080AADF /* AFStub.framework */,
+				32FF886A27C387930080AADF /* COStub.framework */,
+				32FF886B27C387930080AADF /* DLStub.framework */,
+				32FF887027C387930080AADF /* DNStub.framework */,
+				32FF887127C387930080AADF /* DOStub.framework */,
+				32FF888327C387940080AADF /* DTStub.framework */,
+				32FF888427C387940080AADF /* DVStub.framework */,
+				326C4D7127BF5058003D8296 /* AA.framework */,
+				326C4D4027BF5056003D8296 /* AB.framework */,
+				326C4D5D27BF5057003D8296 /* AC.framework */,
+				326C4D4327BF5057003D8296 /* AD.framework */,
+				326C4D9527BF5059003D8296 /* AE.framework */,
+				326C4D4E27BF5057003D8296 /* AF.framework */,
+				326C4D4627BF5057003D8296 /* AG.framework */,
+				326C4D5027BF5057003D8296 /* AH.framework */,
+				326C4D3727BF5056003D8296 /* AI.framework */,
+				326C4D7C27BF5058003D8296 /* AJ.framework */,
+				326C4D8827BF5059003D8296 /* AK.framework */,
+				326C4D6627BF5058003D8296 /* AL.framework */,
+				326C4D5A27BF5057003D8296 /* AM.framework */,
+				326C4D8E27BF5059003D8296 /* AN.framework */,
+				326C4D6F27BF5058003D8296 /* AO.framework */,
+				326C4D8327BF5059003D8296 /* AP.framework */,
+				326C4D5127BF5057003D8296 /* AQ.framework */,
+				326C4D8627BF5059003D8296 /* AR.framework */,
+				326C4D9227BF5059003D8296 /* AS.framework */,
+				326C4D8727BF5059003D8296 /* AT.framework */,
+				326C4D6427BF5058003D8296 /* AU.framework */,
+				326C4D7E27BF5058003D8296 /* AV.framework */,
+				326C4D3A27BF5056003D8296 /* AW.framework */,
+				326C4D4A27BF5057003D8296 /* AX.framework */,
+				326C4D6527BF5058003D8296 /* AY.framework */,
+				326C4D8D27BF5059003D8296 /* AZ.framework */,
+				326C4D3C27BF5056003D8296 /* BA.framework */,
+				326C4D4F27BF5057003D8296 /* BB.framework */,
+				326C4D7427BF5058003D8296 /* BC.framework */,
+				326C4D9627BF5059003D8296 /* BD.framework */,
+				326C4D5227BF5057003D8296 /* BE.framework */,
+				326C4D5727BF5057003D8296 /* BF.framework */,
+				326C4D3B27BF5056003D8296 /* BG.framework */,
+				326C4D5627BF5057003D8296 /* BH.framework */,
+				326C4D8C27BF5059003D8296 /* BI.framework */,
+				326C4D6927BF5058003D8296 /* BJ.framework */,
+				326C4D4527BF5057003D8296 /* BK.framework */,
+				326C4D6027BF5057003D8296 /* BL.framework */,
+				326C4D4B27BF5057003D8296 /* BM.framework */,
+				326C4D6227BF5058003D8296 /* BN.framework */,
+				326C4D4D27BF5057003D8296 /* BO.framework */,
+				326C4D5B27BF5057003D8296 /* BP.framework */,
+				326C4D9427BF5059003D8296 /* BQ.framework */,
+				326C4D7527BF5058003D8296 /* BR.framework */,
+				326C4D6C27BF5058003D8296 /* BS.framework */,
+				326C4D9727BF5059003D8296 /* BT.framework */,
+				326C4D3927BF5056003D8296 /* BU.framework */,
+				326C4D5327BF5057003D8296 /* BV.framework */,
+				326C4D3827BF5056003D8296 /* BW.framework */,
+				326C4D6E27BF5058003D8296 /* BX.framework */,
+				326C4D8B27BF5059003D8296 /* BY.framework */,
+				326C4D7B27BF5058003D8296 /* BZ.framework */,
+				326C4D7A27BF5058003D8296 /* CA.framework */,
+				326C4D3527BF5056003D8296 /* CB.framework */,
+				326C4D3F27BF5056003D8296 /* CC.framework */,
+				326C4D7927BF5058003D8296 /* CD.framework */,
+				326C4D4C27BF5057003D8296 /* CE.framework */,
+				326C4D4727BF5057003D8296 /* CF.framework */,
+				326C4D4827BF5057003D8296 /* CG.framework */,
+				326C4D6D27BF5058003D8296 /* CH.framework */,
+				326C4D8127BF5059003D8296 /* CI.framework */,
+				326C4D4427BF5057003D8296 /* CJ.framework */,
+				326C4D7327BF5058003D8296 /* CK.framework */,
+				326C4D3D27BF5056003D8296 /* CL.framework */,
+				326C4D5527BF5057003D8296 /* CM.framework */,
+				326C4D7F27BF5059003D8296 /* CN.framework */,
+				326C4D4927BF5057003D8296 /* CO.framework */,
+				326C4D4227BF5057003D8296 /* CP.framework */,
+				326C4D3E27BF5056003D8296 /* CQ.framework */,
+				326C4D5927BF5057003D8296 /* CR.framework */,
+				326C4D8027BF5059003D8296 /* CS.framework */,
+				326C4D7827BF5058003D8296 /* CT.framework */,
+				326C4D6827BF5058003D8296 /* CU.framework */,
+				326C4D8527BF5059003D8296 /* CV.framework */,
+				326C4D5F27BF5057003D8296 /* CW.framework */,
+				326C4D5827BF5057003D8296 /* CX.framework */,
+				326C4D8F27BF5059003D8296 /* CY.framework */,
+				326C4D6A27BF5058003D8296 /* CZ.framework */,
+				326C4D8227BF5059003D8296 /* DA.framework */,
+				326C4D5E27BF5057003D8296 /* DB.framework */,
+				326C4D6B27BF5058003D8296 /* DC.framework */,
+				326C4D7727BF5058003D8296 /* DD.framework */,
+				326C4D9827BF5059003D8296 /* DE.framework */,
+				326C4D6727BF5058003D8296 /* DF.framework */,
+				326C4D7D27BF5058003D8296 /* DG.framework */,
+				326C4D7227BF5058003D8296 /* DH.framework */,
+				326C4D3627BF5056003D8296 /* DI.framework */,
+				326C4D6327BF5058003D8296 /* DJ.framework */,
+				326C4D8A27BF5059003D8296 /* DK.framework */,
+				326C4D4127BF5057003D8296 /* DL.framework */,
+				326C4D5427BF5057003D8296 /* DM.framework */,
+				326C4D7627BF5058003D8296 /* DN.framework */,
+				326C4D9327BF5059003D8296 /* DO.framework */,
+				326C4D8427BF5059003D8296 /* DP.framework */,
+				326C4D9127BF5059003D8296 /* DQ.framework */,
+				326C4D9027BF5059003D8296 /* DR.framework */,
+				326C4D8927BF5059003D8296 /* DS.framework */,
+				326C4D5C27BF5057003D8296 /* DT.framework */,
+				326C4D6127BF5058003D8296 /* DU.framework */,
+				326C4D7027BF5058003D8296 /* DV.framework */,
 				320DED8327BBA14D003280BE /* AA.framework */,
 				320DED9727BBA14E003280BE /* AB.framework */,
 				320DED5A27BBA14C003280BE /* AC.framework */,
@@ -710,26 +1306,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		326C4E6727BF7107003D8296 /* slowDebugTestMac */ = {
+			isa = PBXGroup;
+			children = (
+				326C4E6827BF7107003D8296 /* AppDelegate.swift */,
+				326C4E6A27BF7107003D8296 /* ViewController.swift */,
+				326C4E6C27BF710A003D8296 /* Assets.xcassets */,
+				326C4E6E27BF710A003D8296 /* Main.storyboard */,
+				326C4E7127BF710A003D8296 /* slowDebugTestMac.entitlements */,
+				32C734D427CE450E006DA0DA /* OCPerson.h */,
+				32C734D527CE450E006DA0DA /* OCPerson.m */,
+				32C734D327CE450E006DA0DA /* slowDebugTestMac-Bridging-Header.h */,
+			);
+			path = slowDebugTestMac;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B0567A127B63888003DE558 /* slowDebugTest no-serialize */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B0567AC27B63888003DE558 /* Build configuration list for PBXNativeTarget "slowDebugTest no-serialize" */;
-			buildPhases = (
-				2B0567A227B63888003DE558 /* Sources */,
-				2B0567A627B63888003DE558 /* Frameworks */,
-				2B0567A827B63888003DE558 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "slowDebugTest no-serialize";
-			productName = slowDebugTest;
-			productReference = 2B0567AF27B63888003DE558 /* slowDebugTest no-serialize.app */;
-			productType = "com.apple.product-type.application";
-		};
 		2B803B4D27B4FCF7004600B7 /* slowDebugTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B803B6227B4FCFB004600B7 /* Build configuration list for PBXNativeTarget "slowDebugTest" */;
@@ -737,7 +1331,6 @@
 				2B803B4A27B4FCF7004600B7 /* Sources */,
 				2B803B4B27B4FCF7004600B7 /* Frameworks */,
 				2B803B4C27B4FCF7004600B7 /* Resources */,
-				320DEE7427BBA158003280BE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -746,6 +1339,23 @@
 			name = slowDebugTest;
 			productName = slowDebugTest;
 			productReference = 2B803B4E27B4FCF7004600B7 /* slowDebugTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326C4E6527BF7107003D8296 /* slowDebugTestMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326C4E7227BF710A003D8296 /* Build configuration list for PBXNativeTarget "slowDebugTestMac" */;
+			buildPhases = (
+				326C4E6227BF7107003D8296 /* Sources */,
+				326C4E6327BF7107003D8296 /* Frameworks */,
+				326C4E6427BF7107003D8296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slowDebugTestMac;
+			productName = slowDebugTestMac;
+			productReference = 326C4E6627BF7107003D8296 /* slowDebugTestMac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -760,6 +1370,10 @@
 				TargetAttributes = {
 					2B803B4D27B4FCF7004600B7 = {
 						CreatedOnToolsVersion = 13.2;
+					};
+					326C4E6527BF7107003D8296 = {
+						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -777,22 +1391,12 @@
 			projectRoot = "";
 			targets = (
 				2B803B4D27B4FCF7004600B7 /* slowDebugTest */,
-				2B0567A127B63888003DE558 /* slowDebugTest no-serialize */,
+				326C4E6527BF7107003D8296 /* slowDebugTestMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B0567A827B63888003DE558 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B0567A927B63888003DE558 /* LaunchScreen.storyboard in Resources */,
-				2B0567AA27B63888003DE558 /* Assets.xcassets in Resources */,
-				2B0567AB27B63888003DE558 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B803B4C27B4FCF7004600B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,19 +1407,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		2B0567A227B63888003DE558 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		326C4E6427BF7107003D8296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0567A327B63888003DE558 /* ViewController.swift in Sources */,
-				2B0567A427B63888003DE558 /* AppDelegate.swift in Sources */,
-				2B0567A527B63888003DE558 /* SceneDelegate.swift in Sources */,
+				326C4E6D27BF710A003D8296 /* Assets.xcassets in Resources */,
+				326C4E7027BF710A003D8296 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		2B803B4A27B4FCF7004600B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -824,6 +1427,17 @@
 				2B803B5227B4FCF7004600B7 /* AppDelegate.swift in Sources */,
 				320DEE7627BBA1A1003280BE /* StubFrameworks.swift in Sources */,
 				2B803B5427B4FCF7004600B7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C4E6227BF7107003D8296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326C4E6B27BF7107003D8296 /* ViewController.swift in Sources */,
+				328E173A27BF79530015C64A /* StubFrameworks.swift in Sources */,
+				32C734D627CE450E006DA0DA /* OCPerson.m in Sources */,
+				326C4E6927BF7107003D8296 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,81 +1460,17 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		326C4E6E27BF710A003D8296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326C4E6F27BF710A003D8296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2B0567AD27B63888003DE558 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TS86G732GX;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/slowDebugTest",
-				);
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "slowDebugTest copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-Xfrontend -no-serialize-debugging-options";
-				PRODUCT_BUNDLE_IDENTIFIER = company.bytedance.slowDebugTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INCLUDE_PATHS = "";
-				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2B0567AE27B63888003DE558 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TS86G732GX;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/slowDebugTest",
-					"/Users/larkios/Jenkins/workspace/lark/ios/binary-publish/x13/daily-binary-cache-552/Pods/Target",
-					Support,
-					Files369,
-				);
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "slowDebugTest copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-Xfrontend -no-serialize-debugging-options";
-				PRODUCT_BUNDLE_IDENTIFIER = company.bytedance.slowDebugTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		2B803B6027B4FCFB004600B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1045,6 +1595,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TS86G732GX;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/slowDebugTest",
@@ -1078,6 +1629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TS86G732GX;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/slowDebugTest",
@@ -1103,18 +1655,78 @@
 			};
 			name = Release;
 		};
+		326C4E7327BF710A003D8296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = slowDebugTestMac/slowDebugTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/slowDebugTestMac",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreampiggy.slowDebugTestMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "slowDebugTestMac/slowDebugTestMac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		326C4E7427BF710A003D8296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = slowDebugTestMac/slowDebugTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/slowDebugTestMac",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreampiggy.slowDebugTestMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "slowDebugTestMac/slowDebugTestMac-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B0567AC27B63888003DE558 /* Build configuration list for PBXNativeTarget "slowDebugTest no-serialize" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B0567AD27B63888003DE558 /* Debug */,
-				2B0567AE27B63888003DE558 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2B803B4927B4FCF7004600B7 /* Build configuration list for PBXProject "slowDebugTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1129,6 +1741,15 @@
 			buildConfigurations = (
 				2B803B6327B4FCFB004600B7 /* Debug */,
 				2B803B6427B4FCFB004600B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326C4E7227BF710A003D8296 /* Build configuration list for PBXNativeTarget "slowDebugTestMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326C4E7327BF710A003D8296 /* Debug */,
+				326C4E7427BF710A003D8296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
